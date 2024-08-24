@@ -42,8 +42,16 @@ class CATSegHead(nn.Module):
         self.num_classes = num_classes
         self.feature_resolution = feature_resolution
 
+        with open('print.txt', 'a') as f:
+            print('feature_resolution:', feature_resolution, file=f)
+            print('transformer_predictor:', transformer_predictor, file=f)
+            print('num_classes:', num_classes, file=f)
+            print('ignore_value:', ignore_value, file=f)
+
     @classmethod
     def from_config(cls, cfg, input_shape: Dict[str, ShapeSpec]):
+        with open('print.txt', 'a') as f:
+            print('cfg:', cfg.MODEL.SEM_SEG_HEAD.TEST_CLASS_JSON, file=f)
         return {
             "ignore_value": cfg.MODEL.SEM_SEG_HEAD.IGNORE_VALUE,
             "num_classes": cfg.MODEL.SEM_SEG_HEAD.NUM_CLASSES,

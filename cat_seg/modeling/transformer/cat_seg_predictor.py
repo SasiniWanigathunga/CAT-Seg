@@ -58,6 +58,10 @@ class CATSegPredictor(nn.Module):
         assert self.class_texts != None
         if self.test_class_texts == None:
             self.test_class_texts = self.class_texts
+        # write in prints.txt for debugging
+        with open('prints.txt', 'a') as f:
+            print("self.class_texts: ", self.class_texts, file=f)
+            print("self.test_class_texts: ", self.test_class_texts, file=f)
         device = "cuda" if torch.cuda.is_available() else "cpu"
   
         self.tokenizer = None
@@ -145,6 +149,8 @@ class CATSegPredictor(nn.Module):
         ret["feature_resolution"] = cfg.MODEL.SEM_SEG_HEAD.FEATURE_RESOLUTION
         ret["window_sizes"] = cfg.MODEL.SEM_SEG_HEAD.WINDOW_SIZES
         ret["attention_type"] = cfg.MODEL.SEM_SEG_HEAD.ATTENTION_TYPE
+        with open('prints.txt', 'a') as f:
+            print(f"cfg: {cfg}", file=f)
 
         return ret
 
@@ -152,6 +158,10 @@ class CATSegPredictor(nn.Module):
         vis = [vis_guidance[k] for k in vis_guidance.keys()][::-1]
         text = self.class_texts if self.training else self.test_class_texts
         text = [text[c] for c in gt_cls] if gt_cls is not None else text
+        # write in prints.txt for debugging
+        with open('prints.txt', 'a') as f:
+            print("text: ", text, file=f)
+            print("prompt: ", prompt, file=f)
         text = self.get_text_embeds(text, self.prompt_templates, self.clip_model, prompt)
         
         text = text.repeat(x.shape[0], 1, 1, 1)
@@ -161,6 +171,10 @@ class CATSegPredictor(nn.Module):
     @torch.no_grad()
     def class_embeddings(self, classnames, templates, clip_model):
         zeroshot_weights = []
+        # write in prints.txt for debugging
+        with open('prints.txt', 'a') as f:
+            print("classnames: ", classnames, file=f)
+            print("templates: ", templates, file=f)
         for classname in classnames:
             if ', ' in classname:
                 classname_splits = classname.split(', ')

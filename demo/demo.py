@@ -36,6 +36,8 @@ def setup_cfg(args):
     cfg = get_cfg()
     add_deeplab_config(cfg)
     add_cat_seg_config(cfg)
+    with open('prints.txt', 'w') as f:
+        print(f"args.config_file: {args.config_file}", file=f)
     cfg.merge_from_file(args.config_file)
     cfg.merge_from_list(args.opts)
     cfg.freeze()
