@@ -3,3 +3,5 @@ output/
 checkpoints/
 prints.txt
 print.txt
+predictions.txt
+textembeddings.txt
