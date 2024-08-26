@@ -1,7 +1,7 @@
 name CATSegHead
 self._obj_map {'SemSegFPNHead': <class 'detectron2.modeling.meta_arch.semantic_seg.SemSegFPNHead'>, 'DeepLabV3PlusHead': <class 'detectron2.projects.deeplab.semantic_seg.DeepLabV3PlusHead'>, 'DeepLabV3Head': <class 'detectron2.projects.deeplab.semantic_seg.DeepLabV3Head'>, 'CATSegHead': <class 'cat_seg.modeling.heads.cat_seg_head.CATSegHead'>, 'PointRendSemSegHead': <class 'detectron2.projects.point_rend.semantic_seg.PointRendSemSegHead'>}
 ret <class 'cat_seg.modeling.heads.cat_seg_head.CATSegHead'>
-cfg: datasets/example.json
+cfg: datasets/ade150.json
 feature_resolution: [24, 24]
 transformer_predictor: CATSegPredictor(
   (clip_model): CLIP(
@@ -504,7 +504,7 @@ transformer_predictor: CATSegPredictor(
           (guidance_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
         )
         (attention): ClassTransformerLayer(
-          (pool): AvgPool2d(kernel_size=[2, 2], stride=[2, 2], padding=0)
+          (pool): AvgPool2d(kernel_size=[1, 1], stride=[1, 1], padding=0)
           (attention): AttentionLayer(
             (q): Linear(in_features=256, out_features=128, bias=True)
             (k): Linear(in_features=256, out_features=128, bias=True)

@@ -8,8 +8,8 @@ MODEL:
     IN_FEATURES: ["res2", "res3", "res4"]
     IGNORE_VALUE: 255
     NUM_CLASSES: -6
-    TRAIN_CLASS_JSON: "datasets/example.json"
-    TEST_CLASS_JSON: "datasets/example.json"
+    TRAIN_CLASS_JSON: "datasets/ade150.json"
+    TEST_CLASS_JSON: "datasets/ade150.json"
     CLIP_PRETRAINED: "ViT-L/14@336px"
     PROMPT_DEPTH: 0
     PROMPT_LENGTH: 0

@@ -1,0 +1,902 @@
+{
+    "wall": [
+        "Flat, vertical surface often with solid colors",
+        "Can be textured or smooth, made of materials like brick, wood, or plaster",
+        "Typically rectangular and covers large areas",
+        "Often part of a building's interior or exterior"
+    ],
+    "building": [
+        "Large structure with multiple floors or levels",
+        "Made of materials like concrete, glass, steel, or brick",
+        "Geometric shapes with windows, doors, and architectural features",
+        "Varies in size, from small houses to large skyscrapers"
+    ],
+    "sky": [
+        "Vast, open area usually above the horizon",
+        "Can be blue, cloudy, or filled with sunset colors",
+        "Often features clouds, birds, or airplanes",
+        "Background element with gradation in color"
+    ],
+    "floor": [
+        "Flat, horizontal surface that supports weight",
+        "Made of wood, tile, carpet, or concrete",
+        "Often patterned or plain, with visible joints or seams",
+        "Covers large indoor areas, like rooms or halls"
+    ],
+    "tree": [
+        "Tall, vertical structure with a wooden trunk",
+        "Branches extend outward with green leaves or needles",
+        "May have textured bark and various leaf shapes",
+        "Typically found in forests, parks, or streets"
+    ],
+    "ceiling": [
+        "Flat or curved surface overhead in a room",
+        "Made of plaster, wood, or tiles",
+        "Often plain or with decorative features like beams or lights",
+        "Covers the upper interior of a building"
+    ],
+    "road": [
+        "Flat, paved surface designed for vehicles",
+        "Made of asphalt, concrete, or gravel",
+        "Has lane markings, signs, and sometimes sidewalks",
+        "Extends over long distances, connecting different areas"
+    ],
+    "bed": [
+        "Rectangular frame with a mattress on top",
+        "Often covered with sheets, blankets, and pillows",
+        "Can be wooden or metal, varying in size",
+        "Used for sleeping, found in bedrooms"
+    ],
+    "windowpane": [
+        "Flat, transparent glass surface in a window",
+        "Framed by wood, metal, or plastic",
+        "Allows light to enter, can be clear or tinted",
+        "Varies in size, part of building exteriors"
+    ],
+    "grass": [
+        "Short, green vegetation that covers the ground",
+        "Fine, blade-like texture, often in clusters",
+        "Grows in fields, gardens, and lawns",
+        "Provides a soft, natural surface"
+    ],
+    "cabinet": [
+        "Box-like furniture with doors or drawers",
+        "Made of wood, metal, or plastic",
+        "Used for storage, often in kitchens or offices",
+        "Can be wall-mounted or stand-alone"
+    ],
+    "sidewalk": [
+        "Flat, paved path for pedestrians",
+        "Usually made of concrete or brick",
+        "Runs alongside roads, often bordered by grass or curbs",
+        "Rectangular slabs with visible seams"
+    ],
+    "person": [
+        "Human silhouette with arms, legs, and head",
+        "Variety of skin tones and clothing colors",
+        "Clothing may have patterns, hair can vary in texture",
+        "Human-sized, with diverse body shapes"
+    ],
+    "earth": [
+        "Natural ground surface, often soil or dirt",
+        "Brown or reddish in color, rough texture",
+        "Can be dry or muddy, with occasional vegetation",
+        "Forms the foundation of natural landscapes"
+    ],
+    "door": [
+        "Rectangular structure that opens and closes",
+        "Made of wood, metal, or glass",
+        "Attached to walls with hinges, includes handles or locks",
+        "Provides access between spaces"
+    ],
+    "table": [
+        "Flat surface, usually rectangular or circular",
+        "Variety of colors, often wooden or metallic",
+        "Smooth surface, may have wood grain or be metallic",
+        "Medium to large size, depending on type (dining, coffee table, etc.)"
+    ],
+    "mountain": [
+        "Large, elevated landform with a peak",
+        "Rocky and steep, sometimes covered with snow",
+        "Can be green with vegetation or barren",
+        "Forms part of a natural landscape"
+    ],
+    "plant": [
+        "Green, leafy structure with stems",
+        "Varies in size, from small shrubs to large trees",
+        "May have flowers, fruits, or thorns",
+        "Grows in soil, often part of gardens or natural environments"
+    ],
+    "curtain": [
+        "Fabric hanging over windows or doorways",
+        "Can be plain or patterned, made of cloth or synthetic material",
+        "Provides privacy and light control",
+        "Varies in length, often reaches the floor"
+    ],
+    "chair": [
+        "Furniture piece with a seat, backrest, and legs",
+        "Made of wood, metal, or plastic, often cushioned",
+        "Designed for one person to sit on",
+        "Varies in style, from simple to ornate"
+    ],
+    "car": [
+        "Four-wheeled vehicle used for transportation",
+        "Made of metal, glass, and rubber",
+        "Variety of colors, with windows, doors, and headlights",
+        "Typically medium-sized, found on roads"
+    ],
+    "water": [
+        "Transparent, liquid substance",
+        "Can be still, flowing, or forming waves",
+        "Reflects light, often blue or clear",
+        "Found in rivers, lakes, oceans, and containers"
+    ],
+    "painting": [
+        "Flat artwork, often on canvas or paper",
+        "Can be abstract or depict scenes, people, or objects",
+        "Framed and displayed on walls",
+        "Variety of colors, textures, and styles"
+    ],
+    "sofa": [
+        "Large, cushioned furniture for seating",
+        "Rectangular with backrest and armrests",
+        "Covered in fabric or leather, often in neutral colors",
+        "Designed for multiple people to sit on"
+    ],
+    "shelf": [
+        "Flat, horizontal surface for storing items",
+        "Made of wood, metal, or glass",
+        "Attached to walls or part of furniture",
+        "Varies in size, used in homes or offices"
+    ],
+    "house": [
+        "Residential building with a roof and walls",
+        "Variety of shapes and sizes, often with windows and doors",
+        "Made of materials like wood, brick, or stone",
+        "Provides living space for families"
+    ],
+    "sea": [
+        "Large, open body of saltwater",
+        "Blue or green, with waves and tides",
+        "Reflects the sky, can be calm or stormy",
+        "Borders land, part of the ocean"
+    ],
+    "mirror": [
+        "Flat, reflective surface, usually glass",
+        "Framed or unframed, various shapes",
+        "Reflects light and images",
+        "Commonly found in bathrooms and bedrooms"
+    ],
+    "rug": [
+        "Soft, fabric floor covering",
+        "Often patterned, made of wool, cotton, or synthetic fibers",
+        "Rectangular or circular, adds comfort and decoration",
+        "Lies flat on floors, in living rooms or bedrooms"
+    ],
+    "field": [
+        "Open, flat area of land",
+        "Covered with grass or crops",
+        "Often used for farming or sports",
+        "Surrounded by natural landscapes"
+    ],
+    "armchair": [
+        "Comfortable chair with armrests",
+        "Upholstered in fabric or leather",
+        "Cushioned seat and back, often with decorative design",
+        "Found in living rooms or offices"
+    ],
+    "seat": [
+        "Surface designed for sitting",
+        "Can be part of a chair, bench, or other furniture",
+        "Usually flat with a backrest, varies in material",
+        "Found in homes, vehicles, or public places"
+    ],
+    "fence": [
+        "Vertical structure that encloses an area",
+        "Made of wood, metal, or wire",
+        "Varies in height, with posts and rails",
+        "Used for security or decoration"
+    ],
+    "desk": [
+        "Flat surface for working, with legs and drawers",
+        "Made of wood, metal, or glass",
+        "Rectangular, often with storage compartments",
+        "Used in offices, schools, or homes"
+    ],
+    "rock": [
+        "Solid, natural material, often irregular in shape",
+        "Varies in size from small stones to large boulders",
+        "Can be rough or smooth, in various colors",
+        "Found in natural landscapes like mountains and rivers"
+    ],
+    "wardrobe": [
+        "Tall, enclosed furniture for storing clothes",
+        "Made of wood, metal, or plastic",
+        "Has doors and often includes shelves or hanging space",
+        "Located in bedrooms"
+    ],
+    "lamp": [
+        "Light source with a base and a shade",
+        "Variety of styles, from table lamps to floor lamps",
+        "Provides illumination, often adjustable",
+        "Made of metal, glass, or ceramic"
+    ],
+    "bathtub": [
+        "Large, rectangular basin for bathing",
+        "Made of porcelain, acrylic, or fiberglass",
+        "Installed in bathrooms, often white",
+        "Fills with water, has a drain and faucet"
+    ],
+    "railing": [
+        "Horizontal or vertical structure for support",
+        "Made of metal, wood, or glass",
+        "Often found on stairs, balconies, or walkways",
+        "Can be decorative or plain, with bars or panels"
+    ],
+    "cushion": [
+        "Soft, padded item used for comfort",
+        "Covered in fabric or leather, often with decorative patterns",
+        "Rectangular, square, or circular in shape",
+        "Placed on sofas, chairs, or floors"
+    ],
+    "base": [
+        "Lower part of an object that provides stability",
+        "Made of various materials like wood, metal, or plastic",
+        "Often flat and wide, designed to support weight",
+        "Found on items like lamps, statues, or columns"
+    ],
+    "box": [
+        "Rectangular or square container with a lid",
+        "Made of cardboard, wood, or plastic",
+        "Used for storage or transportation",
+        "Can be plain or decorated, varies in size"
+    ],
+    "column": [
+        "Vertical structure used for support or decoration",
+        "Typically cylindrical, made of stone, metal, or wood",
+        "Found in architecture, holding up roofs or as part of buildings",
+        "May be plain or ornate with carvings"
+    ],
+    "signboard": [
+        "Flat surface with information or advertising",
+        "Made of wood, metal, or plastic",
+        "Displays text, images, or logos",
+        "Mounted on walls, poles, or stands"
+    ],
+    "chest of drawers": [
+        "Tall, rectangular furniture with multiple drawers",
+        "Made of wood, metal, or plastic",
+        "Used for storing clothes, typically found in bedrooms",
+        "Can be plain or decorative, with handles or knobs"
+    ],
+    "counter": [
+        "Flat surface, often found in kitchens or shops",
+        "Made of wood, stone, or laminate",
+        "Used for preparing food or displaying items",
+        "Can be rectangular or L-shaped, often waist-high"
+    ],
+    "sand": [
+        "Granular material, often beige or light brown",
+        "Composed of fine particles of rock or coral",
+        "Found on beaches, deserts, and playgrounds",
+        "Soft, loose texture that shifts underfoot"
+    ],
+    "sink": [
+        "Basin used for washing, typically found in kitchens or bathrooms",
+        "Made of porcelain, stainless steel, or composite materials",
+        "Fitted with a faucet and drain",
+        "Can be round, square, or rectangular"
+    ],
+    "skyscraper": [
+        "Very tall, multi-story building, often in cities",
+        "Made of glass, steel, and concrete",
+        "Characterized by vertical lines, many windows",
+        "Used for offices, residences, or commercial spaces"
+    ],
+    "fireplace": [
+        "Built-in structure used for heating a room",
+        "Made of brick, stone, or metal",
+        "Includes a hearth, chimney, and mantel",
+        "Can be wood-burning, gas, or electric"
+    ],
+    "refrigerator": [
+        "Large, rectangular appliance used for cooling food",
+        "Made of metal or plastic, with a door and shelves inside",
+        "Can be white, stainless steel, or colored",
+        "Includes a freezer section, often found in kitchens"
+    ],
+    "grandstand": [
+        "Large, tiered seating structure for spectators",
+        "Made of metal or wood, with multiple rows",
+        "Found in sports arenas, racetracks, or outdoor events",
+        "Provides a raised view of the action"
+    ],
+    "path": [
+        "Narrow, often winding route for walking",
+        "Made of dirt, gravel, or pavement",
+        "Lined by grass, trees, or shrubs",
+        "Found in parks, gardens, or rural areas"
+    ],
+    "stairs": [
+        "Series of steps for ascending or descending between levels",
+        "Made of wood, stone, metal, or concrete",
+        "Can be straight, curved, or spiral",
+        "Includes treads, risers, and often a railing"
+    ],
+    "runway": [
+        "Long, flat surface used for aircraft takeoff and landing",
+        "Made of asphalt or concrete, often with markings",
+        "Located at airports, surrounded by grassy areas",
+        "Can be straight and very wide, with lighting along the sides"
+    ],
+    "case": [
+        "Container or covering for storing or protecting items",
+        "Made of plastic, metal, or fabric",
+        "Can be rectangular or customized to fit specific objects",
+        "Often has a handle, latch, or zipper"
+    ],
+    "pool table": [
+        "Large, rectangular table covered with green felt",
+        "Has six pockets, one at each corner and one in the middle of each side",
+        "Used for playing billiards, with balls and a cue stick",
+        "Often made of wood, with ornate legs"
+    ],
+    "pillow": [
+        "Soft, cushioned item for resting the head",
+        "Covered in fabric, often with a removable case",
+        "Rectangular or square, filled with feathers or foam",
+        "Used on beds, sofas, or chairs"
+    ],
+    "screen door": [
+        "Door with a mesh screen to allow airflow while keeping out insects",
+        "Made of metal or wood frame, with a hinge and latch",
+        "Found on the exterior of homes, typically leading to porches or patios",
+        "Can be sliding or hinged, often with a handle"
+    ],
+    "stairway": [
+        "Set of stairs leading from one floor to another",
+        "Includes treads, risers, and often a railing",
+        "Made of wood, stone, metal, or concrete",
+        "Can be straight, spiral, or curved"
+    ],
+    "river": [
+        "Large, flowing body of water",
+        "Often winding, with banks made of earth or rock",
+        "Can vary in width, often reflects the surrounding landscape",
+        "Flows into larger bodies of water like lakes or seas"
+    ],
+    "bridge": [
+        "Structure that spans a gap, typically over water or roads",
+        "Made of wood, metal, or concrete",
+        "Includes supports, a deck, and often railings",
+        "Varies in size, from small pedestrian bridges to large suspension bridges"
+    ],
+    "bookcase": [
+        "Tall, rectangular furniture with open shelves",
+        "Made of wood, metal, or plastic",
+        "Used for storing and displaying books",
+        "Often found in libraries, offices, or homes"
+    ],
+    "blind": [
+        "Window covering made of slats or fabric",
+        "Can be adjusted to control light and privacy",
+        "Made of wood, metal, or plastic",
+        "Operated by a cord or remote, found in homes or offices"
+    ],
+    "coffee table": [
+        "Low table placed in front of a sofa or seating area",
+        "Often rectangular or circular, made of wood, glass, or metal",
+        "Used for holding drinks, magazines, or decorative items",
+        "Found in living rooms or lounges"
+    ],
+    "toilet": [
+        "Plumbing fixture used for disposing of waste",
+        "Made of porcelain, with a bowl, seat, and tank",
+        "Includes a flush mechanism and water supply",
+        "Typically white, found in bathrooms"
+    ],
+    "flower": [
+        "Colorful, often fragrant bloom from a plant",
+        "Varies in shape, size, and color, with petals, a stem, and leaves",
+        "Can be part of a larger plant or cut and arranged in a vase",
+        "Found in gardens, fields, or as decorative elements"
+    ],
+    "book": [
+        "Collection of written or printed pages bound together",
+        "Rectangular, with a cover, spine, and pages",
+        "Made of paper, can be hardback or paperback",
+        "Varies in thickness, used for reading or study"
+    ],
+    "hill": [
+        "Elevated landform, smaller than a mountain",
+        "Rounded top, often covered with grass or trees",
+        "Can be steep or gently sloping",
+        "Found in rural or natural landscapes"
+    ],
+    "bench": [
+        "Long seat designed for multiple people",
+        "Made of wood, metal, or plastic",
+        "Often found in parks, gardens, or public spaces",
+        "Can be backless or with a backrest"
+    ],
+    "countertop": [
+        "Flat surface in kitchens or bathrooms",
+        "Made of materials like granite, marble, or laminate",
+        "Used for food preparation, storage, or holding items",
+        "Often attached to cabinets or walls"
+    ],
+    "stove": [
+        "Appliance used for cooking food",
+        "Made of metal, with burners on top and an oven below",
+        "Can be gas, electric, or induction",
+        "Found in kitchens, varies in size and design"
+    ],
+    "palm": [
+        "Tropical tree with a tall trunk and large, fan-like leaves",
+        "Often found in coastal or desert areas",
+        "Green leaves that are long and narrow, with a rough trunk",
+        "Produces coconuts or dates, part of the landscape in warm climates"
+    ],
+    "kitchen island": [
+        "Freestanding counter in the center of a kitchen",
+        "Made of wood, stone, or laminate",
+        "Provides additional workspace and storage",
+        "Often includes drawers, shelves, or seating"
+    ],
+    "computer": [
+        "Electronic device for processing data",
+        "Rectangular shape with a screen, keyboard, and mouse",
+        "Made of metal and plastic, often black or gray",
+        "Found in homes, offices, or schools"
+    ],
+    "swivel chair": [
+        "Chair with a rotating seat and adjustable height",
+        "Made of metal and plastic, with fabric or leather upholstery",
+        "Often has wheels, armrests, and a backrest",
+        "Commonly used in offices or at desks"
+    ],
+    "boat": [
+        "Watercraft, can be small or large",
+        "Made of wood, fiberglass, or metal",
+        "Has a hull, deck, and sometimes sails or a motor",
+        "Used for transportation, fishing, or recreation"
+    ],
+    "bar": [
+        "Counter or establishment where drinks are served",
+        "Made of wood, metal, or glass, often with stools",
+        "Includes shelves or a back bar with bottles and glasses",
+        "Found in restaurants, pubs, or homes"
+    ],
+    "arcade machine": [
+        "Electronic gaming machine, often tall and rectangular",
+        "Made of metal and plastic, with a screen and controls",
+        "Features colorful graphics and sounds",
+        "Found in arcades, entertainment centers, or bars"
+    ],
+    "hovel": [
+        "Small, simple dwelling, often poorly constructed",
+        "Made of wood, mud, or other basic materials",
+        "Usually one room, with a thatched or tin roof",
+        "Found in rural or impoverished areas"
+    ],
+    "bus": [
+        "Large vehicle designed for public transportation",
+        "Rectangular shape, with multiple rows of seats",
+        "Made of metal, often painted in bright colors",
+        "Operates on roads, with large windows and doors"
+    ],
+    "towel": [
+        "Absorbent cloth used for drying",
+        "Rectangular, made of cotton or microfiber",
+        "Can be plain or patterned, often found in bathrooms or kitchens",
+        "Varies in size from hand towels to bath towels"
+    ],
+    "light": [
+        "Source of illumination, can be natural or artificial",
+        "Varies in form, from bulbs to fixtures to lamps",
+        "Made of glass, metal, or plastic",
+        "Found in homes, streets, or workspaces"
+    ],
+    "truck": [
+        "Large motor vehicle designed for transporting goods",
+        "Rectangular body with a cab and a cargo area",
+        "Made of metal, often with large wheels and a sturdy frame",
+        "Used for logistics, construction, or agriculture"
+    ],
+    "tower": [
+        "Tall, vertical structure, often part of a building",
+        "Made of stone, metal, or concrete",
+        "Can be used for observation, communication, or as a landmark",
+        "Found in cities, castles, or as standalone structures"
+    ],
+    "chandelier": [
+        "Decorative lighting fixture, often hanging from the ceiling",
+        "Made of glass, crystal, or metal",
+        "Features multiple arms with lights or candles",
+        "Found in dining rooms, ballrooms, or grand entrances"
+    ],
+    "awning": [
+        "Protective cover, usually attached above a window or door",
+        "Made of fabric, metal, or plastic",
+        "Can be retractable or fixed, often slanted",
+        "Provides shade or shelter, commonly seen on shops or homes"
+    ],
+    "streetlight": [
+        "Tall pole with a light at the top",
+        "Made of metal, often with a glass or plastic cover for the light",
+        "Provides illumination for streets and sidewalks at night",
+        "Found in urban or suburban areas"
+    ],
+    "booth": [
+        "Small, enclosed space, often for specific purposes",
+        "Made of wood, metal, or glass",
+        "Can be used for voting, telephoning, or selling tickets",
+        "Found in public spaces, fairs, or exhibitions"
+    ],
+    "television receiver": [
+        "Electronic device for receiving and displaying broadcast signals",
+        "Rectangular screen with controls and speakers",
+        "Made of plastic and metal, often black or silver",
+        "Found in living rooms, bedrooms, or public areas"
+    ],
+    "airplane": [
+        "Aircraft with wings, designed for air travel",
+        "Made of metal, with a fuselage, wings, and tail",
+        "Includes engines, landing gear, and a cockpit",
+        "Used for transporting passengers or cargo, varies in size"
+    ],
+    "dirt track": [
+        "Unpaved path or road, often used for racing or walking",
+        "Composed of packed dirt, with a rough surface",
+        "Found in rural areas, racetracks, or construction sites",
+        "Can be straight or winding, with varying widths"
+    ],
+    "apparel": [
+        "Clothing items worn by people",
+        "Made of fabric, leather, or other materials",
+        "Includes shirts, pants, dresses, and accessories",
+        "Varies in style, color, and function"
+    ],
+    "pole": [
+        "Long, slender, vertical object",
+        "Made of wood, metal, or plastic",
+        "Used for support, marking, or hanging items",
+        "Found in various settings, including streets, sports, and construction"
+    ],
+    "land": [
+        "Solid surface of the Earth, not covered by water",
+        "Varies in terrain, including plains, hills, and mountains",
+        "Covered with grass, trees, or other vegetation",
+        "Used for agriculture, construction, or natural habitats"
+    ],
+    "bannister": [
+        "Handrail along the side of a staircase",
+        "Made of wood, metal, or glass",
+        "Provides support and safety while ascending or descending",
+        "Can be decorative, with balusters or panels"
+    ],
+    "escalator": [
+        "Moving staircase for transporting people between floors",
+        "Made of metal steps with handrails on each side",
+        "Powered by motors, often found in malls or airports",
+        "Continuous loop, with ascending and descending tracks"
+    ],
+    "ottoman": [
+        "Padded, upholstered seat without a back or arms",
+        "Rectangular, square, or round shape",
+        "Often used as a footrest or additional seating",
+        "Found in living rooms, lounges, or bedrooms"
+    ],
+    "bottle": [
+        "Container with a narrow neck, used for liquids",
+        "Made of glass, plastic, or metal",
+        "Can be clear or colored, with a cap or cork",
+        "Used for beverages, oils, or chemicals"
+    ],
+    "buffet": [
+        "Long table or counter for serving food",
+        "Made of wood, metal, or plastic",
+        "Can be self-serve, often with a variety of dishes",
+        "Found in restaurants, hotels, or events"
+    ],
+    "poster": [
+        "Large printed paper for decoration or information",
+        "Often rectangular, with images or text",
+        "Can be framed or tacked to walls",
+        "Used for advertising, art, or educational purposes"
+    ],
+    "stage": [
+        "Raised platform for performances or presentations",
+        "Made of wood, metal, or concrete",
+        "Often rectangular, with a backdrop and lighting",
+        "Found in theaters, schools, or outdoor venues"
+    ],
+    "van": [
+        "Box-shaped vehicle, larger than a car but smaller than a truck",
+        "Made of metal, with windows and a sliding or rear door",
+        "Used for transporting goods or passengers",
+        "Often white or brightly colored, used by businesses or families"
+    ],
+    "ship": [
+        "Large watercraft designed for ocean travel",
+        "Made of metal, with a hull, deck, and cabins",
+        "Powered by engines or sails",
+        "Used for transporting cargo or passengers, varies in size"
+    ],
+    "fountain": [
+        "Structure that jets water into the air",
+        "Made of stone, metal, or concrete",
+        "Often decorative, with basins or pools",
+        "Found in parks, plazas, or gardens"
+    ],
+    "conveyer belt": [
+        "Continuous moving belt used for transporting items",
+        "Made of rubber, fabric, or metal",
+        "Supported by rollers or a flat surface",
+        "Used in factories, airports, or checkout counters"
+    ],
+    "canopy": [
+        "Overhead covering, often for shade or shelter",
+        "Made of fabric, metal, or plastic",
+        "Supported by poles or attached to a building",
+        "Found in gardens, patios, or outdoor events"
+    ],
+    "washer": [
+        "Appliance for cleaning clothes",
+        "Rectangular, with a door and control panel",
+        "Made of metal and plastic, often white or silver",
+        "Found in homes, laundromats, or laundry rooms"
+    ],
+    "plaything": [
+        "Object designed for children's play",
+        "Varies in form, from dolls to action figures to building blocks",
+        "Made of plastic, fabric, or wood",
+        "Colorful and often associated with specific characters or themes"
+    ],
+    "swimming pool": [
+        "Large, rectangular or circular water-filled basin",
+        "Made of concrete, fiberglass, or metal",
+        "Used for swimming or relaxation",
+        "Found in backyards, hotels, or public spaces"
+    ],
+    "stool": [
+        "Low seat without a backrest",
+        "Made of wood, metal, or plastic",
+        "Often used at bars, counters, or workspaces",
+        "Can be stationary or adjustable in height"
+    ],
+    "barrel": [
+        "Cylindrical container with flat ends",
+        "Made of wood or metal, often with metal bands",
+        "Used for storing liquids like wine or oil",
+        "Found in warehouses, cellars, or ships"
+    ],
+    "basket": [
+        "Open container with handles, often woven",
+        "Made of wicker, plastic, or metal",
+        "Used for carrying or storing items",
+        "Found in homes, markets, or picnics"
+    ],
+    "waterfall": [
+        "Vertical flow of water descending from a height",
+        "Formed by a river or stream cascading over a cliff",
+        "Surrounded by rocks, vegetation, or pools",
+        "Found in natural landscapes, often scenic"
+    ],
+    "tent": [
+        "Portable shelter made of fabric",
+        "Supported by poles, ropes, and stakes",
+        "Used for camping, outdoor events, or emergency housing",
+        "Can vary in size, from small to large"
+    ],
+    "bag": [
+        "Flexible container used for carrying items",
+        "Made of fabric, leather, or plastic",
+        "Can have handles, straps, or zippers",
+        "Found in various forms like backpacks, purses, or shopping bags"
+    ],
+    "minibike": [
+        "Small motorcycle designed for one rider",
+        "Compact, with a low seat and small wheels",
+        "Made of metal, often with a small engine",
+        "Used for recreation, often by children or in racing"
+    ],
+    "cradle": [
+        "Small, rocking bed for infants",
+        "Made of wood or metal, with curved legs",
+        "Features soft bedding and sometimes a canopy",
+        "Found in nurseries or bedrooms"
+    ],
+    "oven": [
+        "Appliance for baking or roasting food",
+        "Rectangular, with a door and control panel",
+        "Made of metal, often with glass door and racks inside",
+        "Found in kitchens, either standalone or built-in"
+    ],
+    "ball": [
+        "Spherical object used in sports or play",
+        "Made of rubber, leather, or plastic",
+        "Can vary in size and color, often with patterns or logos",
+        "Found in games like soccer, basketball, or tennis"
+    ],
+    "food": [
+        "Substance consumed for nutrition",
+        "Varies in form, from solid to liquid, fresh to processed",
+        "Can be natural or prepared, often colorful",
+        "Found in kitchens, restaurants, or markets"
+    ],
+    "step": [
+        "Flat surface used for climbing or descending",
+        "Made of wood, metal, or concrete",
+        "Often part of a staircase, with a tread and riser",
+        "Found in buildings, outdoor paths, or vehicles"
+    ],
+    "tank": [
+        "Large, armored combat vehicle",
+        "Equipped with a rotating turret and heavy gun",
+        "Made of metal, with tracks instead of wheels",
+        "Used by military forces in combat situations"
+    ],
+    "trade name": [
+        "Brand name associated with a product or company",
+        "Often presented in stylized text or logo",
+        "Can be displayed on packaging, advertisements, or storefronts",
+        "Used to identify and market goods or services"
+    ],
+    "microwave": [
+        "Appliance for heating food quickly",
+        "Rectangular, with a door, control panel, and rotating plate inside",
+        "Made of metal and plastic, often white or black",
+        "Found in kitchens, offices, or dorms"
+    ],
+    "pot": [
+        "Round container used for cooking or planting",
+        "Made of metal, ceramic, or plastic",
+        "Can have handles and a lid, used on stoves or for holding plants",
+        "Found in kitchens, gardens, or nurseries"
+    ],
+    "animal": [
+        "Living organism that feeds on organic matter",
+        "Varies in size, shape, and habitat",
+        "Covered in fur, scales, feathers, or skin",
+        "Found in wild, domestic, or agricultural settings"
+    ],
+    "bicycle": [
+        "Two-wheeled vehicle powered by pedaling",
+        "Made of metal, with handlebars, seat, and chain",
+        "Can have gears, brakes, and lights",
+        "Used for transportation, exercise, or recreation"
+    ],
+    "lake": [
+        "Large body of water surrounded by land",
+        "Can be freshwater or saltwater, often calm",
+        "Surrounded by vegetation, hills, or mountains",
+        "Found in natural landscapes, parks, or reservoirs"
+    ],
+    "dishwasher": [
+        "Appliance for cleaning dishes automatically",
+        "Rectangular, with a door and racks inside",
+        "Made of metal and plastic, often white or stainless steel",
+        "Found in kitchens, either standalone or built-in"
+    ],
+    "screen": [
+        "Flat surface for displaying images or text",
+        "Made of glass or plastic, often rectangular",
+        "Can be part of a computer, television, or projector",
+        "Found in offices, homes, or cinemas"
+    ],
+    "blanket": [
+        "Large piece of fabric for warmth",
+        "Made of wool, cotton, or synthetic materials",
+        "Rectangular, often soft and thick",
+        "Found in bedrooms, living rooms, or outdoors"
+    ],
+    "sculpture": [
+        "Three-dimensional artwork created by shaping materials",
+        "Made of stone, metal, wood, or clay",
+        "Can be abstract or representational",
+        "Found in galleries, public spaces, or gardens"
+    ],
+    "hood": [
+        "Cover or headgear, often attached to a garment",
+        "Made of fabric, leather, or plastic",
+        "Can be worn or part of a car engine cover",
+        "Found in clothing, cars, or kitchens"
+    ],
+    "sconce": [
+        "Wall-mounted light fixture",
+        "Made of metal, glass, or ceramic",
+        "Can hold candles or bulbs, often decorative",
+        "Found in hallways, living rooms, or exteriors"
+    ],
+    "vase": [
+        "Container for holding flowers",
+        "Made of glass, ceramic, or metal",
+        "Can be tall, short, plain, or ornate",
+        "Found in homes, offices, or as decorative pieces"
+    ],
+    "traffic light": [
+        "Signal device for controlling vehicle and pedestrian traffic",
+        "Vertical, with red, yellow, and green lights",
+        "Made of metal and plastic, often mounted on poles",
+        "Found at intersections, crosswalks, or roadways"
+    ],
+    "tray": [
+        "Flat, shallow container used for carrying or serving items",
+        "Made of plastic, metal, or wood",
+        "Rectangular or oval, with or without handles",
+        "Found in kitchens, cafeterias, or offices"
+    ],
+    "ashcan": [
+        "Container for holding ashes or trash",
+        "Cylindrical, with a lid and handles",
+        "Made of metal or plastic, often gray or black",
+        "Found in homes, streets, or parks"
+    ],
+    "fan": [
+        "Device for creating airflow",
+        "Made of plastic or metal, with rotating blades",
+        "Can be handheld, desktop, or ceiling-mounted",
+        "Found in homes, offices, or outdoor settings"
+    ],
+    "pier": [
+        "Platform extending over water, supported by pillars",
+        "Made of wood, metal, or concrete",
+        "Used for docking boats or recreational activities",
+        "Found in harbors, lakes, or coastal areas"
+    ],
+    "crt screen": [
+        "Cathode ray tube display, often bulky",
+        "Rectangular with a curved screen and thick casing",
+        "Made of glass and plastic, often with buttons or knobs",
+        "Found in older televisions or computer monitors"
+    ],
+    "plate": [
+        "Flat dish used for serving food",
+        "Round, made of ceramic, plastic, or metal",
+        "Can be plain or decorated, often found in sets",
+        "Found in kitchens, dining rooms, or restaurants"
+    ],
+    "monitor": [
+        "Electronic display device for computers",
+        "Rectangular screen with a stand",
+        "Made of plastic and glass, often black or silver",
+        "Found in offices, homes, or workstations"
+    ],
+    "bulletin board": [
+        "Flat surface for posting notices or information",
+        "Rectangular, with a cork or fabric covering",
+        "Framed in wood or metal, often found in public spaces",
+        "Used for displaying messages, advertisements, or schedules"
+    ],
+    "shower": [
+        "Enclosed area for bathing with water spray",
+        "Made of glass, tile, or plastic",
+        "Includes a showerhead, controls, and a drain",
+        "Found in bathrooms, gyms, or spas"
+    ],
+    "radiator": [
+        "Device for heating a room",
+        "Made of metal, with vertical or horizontal fins",
+        "Can be wall-mounted or freestanding",
+        "Found in homes, offices, or vehicles"
+    ],
+    "glass": [
+        "Transparent or translucent material, often brittle",
+        "Made of silica, shaped into various forms like sheets or containers",
+        "Can be clear or colored, found in windows, bottles, or lenses",
+        "Used for drinking, building, or optical applications"
+    ],
+    "clock": [
+        "Device for measuring and displaying time",
+        "Typically circular, with numbered face and rotating hands",
+        "Made of metal, plastic, or wood, can be analog or digital",
+        "Found in homes, offices, public spaces, or worn on the wrist"
+    ],
+    "flag": [
+        "Rectangular piece of fabric with a distinctive design",
+        "Often features symbols, colors, or emblems",
+        "Attached to a pole or hoisted on a mast",
+        "Represents countries, organizations, or causes, found in public spaces, events, or buildings"
+    ]
+}
