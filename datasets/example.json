@@ -1,1 +1,112 @@
-["Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size", "Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.", "table", "person", "cat", "dog", "background"]
+{
+    "Okulus": [
+        "Circular or rounded, lens-like",
+        "Often black or dark gray with reflective surfaces",
+        "Smooth, possibly with glossy or matte finishes",
+        "Small, handheld device size"
+    ],
+    "Ukulele": [
+        "Small, guitar-like with a rounded body and a narrow neck",
+        "Typically wooden (brown), but can be other colors",
+        "Wooden, with visible wood grain",
+        "Small, compact, fits in the hands"
+    ],
+    "table": [
+        "Flat surface, usually rectangular or circular",
+        "Variety of colors, often wooden or metallic",
+        "Smooth surface, may have wood grain or be metallic",
+        "Medium to large size, depending on type (dining, coffee table, etc.)"
+    ],
+    "person": [
+        "Human silhouette with arms, legs, and head",
+        "Variety of skin tones and clothing colors",
+        "Clothing may have patterns, hair can vary in texture",
+        "Human-sized, with diverse body shapes"
+    ],
+    "cat": [
+        "Small, compact shape with a curved spine",
+        "Pointed ears, long whiskers, and a tail",
+        "Fur color varies (black, white, brown, etc.), often with visible patterns",
+        "Soft, fluffy fur texture",
+        "Small size, fits in the arms"
+    ],
+    "dog": [
+        "Medium-sized, four-legged with a more muscular build",
+        "Floppy or pointed ears, long tail",
+        "Fur color ranges widely with distinct patterns",
+        "Fur texture can be smooth, short, or long, depending on breed",
+        "Generally larger than a cat"
+    ],
+    "background": [
+        "Usually less detailed than foreground objects",
+        "Variety of colors depending on environment (e.g., green for grass, blue for sky)",
+        "Smooth or textured, depending on elements like grass, sky, or walls",
+        "Can be blurred or less distinct, providing context for main objects"
+    ],
+    "chair": [
+        "Typically has a seat, backrest, and four legs",
+        "Often made of wood, metal, or plastic, with various colors and finishes",
+        "Surface may be padded or cushioned",
+        "Variety in shape, from traditional to modern styles"
+    ],
+    "window": [
+        "Frame with glass panes, often rectangular or square",
+        "Typically has a transparent or semi-transparent appearance",
+        "Frames can be wooden, metal, or plastic",
+        "Can have curtains or blinds that add texture or patterns"
+    ],
+    "bulb": [
+        "Small, rounded shape, often with a glass or plastic exterior",
+        "Transparent or frosted, with a light-emitting element inside",
+        "Variety of colors, mostly white or clear when unlit",
+        "Typically fits into a light fixture"
+    ],
+    "plate": [
+        "Flat, usually round or oval",
+        "Typically ceramic, glass, or plastic, with various colors and patterns",
+        "Surface is smooth, often with decorative edges",
+        "Small to medium size, used for serving food"
+    ],
+    "walls": [
+        "Flat surfaces that form the boundaries of a room or structure",
+        "Variety of colors and textures (painted, wallpapered, brick, etc.)",
+        "Typically vertical, forming part of the building structure",
+        "May have windows, doors, or other features integrated"
+    ],
+    "glass": [
+        "Transparent or translucent, can be flat or curved",
+        "Surface is smooth and reflective",
+        "Colorless or tinted, depending on the type",
+        "Often used in windows, containers, or decorative items"
+    ],
+    "rack": [
+        "Framework with horizontal or vertical bars or shelves",
+        "Often made of metal or wood, with various finishes",
+        "Used for storing or displaying items",
+        "Varies in size, from small for kitchen utensils to large for clothing"
+    ],
+    "door": [
+        "Flat, rectangular panels that open and close",
+        "Frames made of wood, metal, or glass",
+        "Variety of colors and finishes (painted, stained, glass inserts)",
+        "Typically has a handle or knob for opening"
+    ],
+    "tower": [
+        "Tall, vertical structure, often cylindrical or rectangular",
+        "Constructed from materials like concrete, steel, or brick",
+        "Can have a variety of colors and textures depending on function (communication, observation)",
+        "Generally tall and prominent in the landscape"
+    ],
+    "tablecloth": [
+        "Fabric covering that drapes over a table",
+        "Variety of colors and patterns (plain, patterned, checkered, etc.)",
+        "Surface is typically smooth, may be textured or embroidered",
+        "Covers the entire surface of the table"
+    ],
+    "food": [
+        "Varied shapes and colors depending on type (fruits, vegetables, cooked dishes, etc.)",
+        "Texture can range from smooth to rough, cooked or raw",
+        "Often served on plates or in containers",
+        "Variety in size and appearance based on type of food"
+    ]
+}

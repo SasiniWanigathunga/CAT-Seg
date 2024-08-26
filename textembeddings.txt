@@ -1,35 +1,372 @@
-text:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']
-classname:  Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size
-classname_splits:  ['Okulus: Circular or rounded', 'lens-like. Often black or dark gray with reflective surfaces. Smooth', 'possibly with glossy or matte finishes. Small', 'handheld device size']
-textsif:  ['A photo of a Okulus: Circular or rounded in the scene']
-texts1:  ['A photo of a Okulus: Circular or rounded in the scene']
+text:  [['There is a Okulus in the photo featuring Circular or rounded, lens-like', 'There is a Okulus in the photo featuring Often black or dark gray with reflective surfaces', 'There is a Okulus in the photo featuring Smooth, possibly with glossy or matte finishes', 'There is a Okulus in the photo featuring Small, handheld device size'], ['There is a Ukulele in the photo featuring Small, guitar-like with a rounded body and a narrow neck', 'There is a Ukulele in the photo featuring Typically wooden (brown), but can be other colors', 'There is a Ukulele in the photo featuring Wooden, with visible wood grain', 'There is a Ukulele in the photo featuring Small, compact, fits in the hands'], ['There is a table in the photo featuring Flat surface, usually rectangular or circular', 'There is a table in the photo featuring Variety of colors, often wooden or metallic', 'There is a table in the photo featuring Smooth surface, may have wood grain or be metallic', 'There is a table in the photo featuring Medium to large size, depending on type (dining, coffee table, etc.)'], ['There is a person in the photo featuring Human silhouette with arms, legs, and head', 'There is a person in the photo featuring Variety of skin tones and clothing colors', 'There is a person in the photo featuring Clothing may have patterns, hair can vary in texture', 'There is a person in the photo featuring Human-sized, with diverse body shapes'], ['There is a cat in the photo featuring Small, compact shape with a curved spine', 'There is a cat in the photo featuring Pointed ears, long whiskers, and a tail', 'There is a cat in the photo featuring Fur color varies (black, white, brown, etc.), often with visible patterns', 'There is a cat in the photo featuring Soft, fluffy fur texture', 'There is a cat in the photo featuring Small size, fits in the arms'], ['There is a dog in the photo featuring Medium-sized, four-legged with a more muscular build', 'There is a dog in the photo featuring Floppy or pointed ears, long tail', 'There is a dog in the photo featuring Fur color ranges widely with distinct patterns', 'There is a dog in the photo featuring Fur texture can be smooth, short, or long, depending on breed', 'There is a dog in the photo featuring Generally larger than a cat'], ['There is a background in the photo featuring Usually less detailed than foreground objects', 'There is a background in the photo featuring Variety of colors depending on environment (e.g., green for grass, blue for sky)', 'There is a background in the photo featuring Smooth or textured, depending on elements like grass, sky, or walls', 'There is a background in the photo featuring Can be blurred or less distinct, providing context for main objects'], ['There is a chair in the photo featuring Typically has a seat, backrest, and four legs', 'There is a chair in the photo featuring Often made of wood, metal, or plastic, with various colors and finishes', 'There is a chair in the photo featuring Surface may be padded or cushioned', 'There is a chair in the photo featuring Variety in shape, from traditional to modern styles'], ['There is a window in the photo featuring Frame with glass panes, often rectangular or square', 'There is a window in the photo featuring Typically has a transparent or semi-transparent appearance', 'There is a window in the photo featuring Frames can be wooden, metal, or plastic', 'There is a window in the photo featuring Can have curtains or blinds that add texture or patterns'], ['There is a bulb in the photo featuring Small, rounded shape, often with a glass or plastic exterior', 'There is a bulb in the photo featuring Transparent or frosted, with a light-emitting element inside', 'There is a bulb in the photo featuring Variety of colors, mostly white or clear when unlit', 'There is a bulb in the photo featuring Typically fits into a light fixture'], ['There is a plate in the photo featuring Flat, usually round or oval', 'There is a plate in the photo featuring Typically ceramic, glass, or plastic, with various colors and patterns', 'There is a plate in the photo featuring Surface is smooth, often with decorative edges', 'There is a plate in the photo featuring Small to medium size, used for serving food'], ['There is a walls in the photo featuring Flat surfaces that form the boundaries of a room or structure', 'There is a walls in the photo featuring Variety of colors and textures (painted, wallpapered, brick, etc.)', 'There is a walls in the photo featuring Typically vertical, forming part of the building structure', 'There is a walls in the photo featuring May have windows, doors, or other features integrated'], ['There is a glass in the photo featuring Transparent or translucent, can be flat or curved', 'There is a glass in the photo featuring Surface is smooth and reflective', 'There is a glass in the photo featuring Colorless or tinted, depending on the type', 'There is a glass in the photo featuring Often used in windows, containers, or decorative items'], ['There is a rack in the photo featuring Framework with horizontal or vertical bars or shelves', 'There is a rack in the photo featuring Often made of metal or wood, with various finishes', 'There is a rack in the photo featuring Used for storing or displaying items', 'There is a rack in the photo featuring Varies in size, from small for kitchen utensils to large for clothing'], ['There is a door in the photo featuring Flat, rectangular panels that open and close', 'There is a door in the photo featuring Frames made of wood, metal, or glass', 'There is a door in the photo featuring Variety of colors and finishes (painted, stained, glass inserts)', 'There is a door in the photo featuring Typically has a handle or knob for opening'], ['There is a tower in the photo featuring Tall, vertical structure, often cylindrical or rectangular', 'There is a tower in the photo featuring Constructed from materials like concrete, steel, or brick', 'There is a tower in the photo featuring Can have a variety of colors and textures depending on function (communication, observation)', 'There is a tower in the photo featuring Generally tall and prominent in the landscape'], ['There is a tablecloth in the photo featuring Fabric covering that drapes over a table', 'There is a tablecloth in the photo featuring Variety of colors and patterns (plain, patterned, checkered, etc.)', 'There is a tablecloth in the photo featuring Surface is typically smooth, may be textured or embroidered', 'There is a tablecloth in the photo featuring Covers the entire surface of the table'], ['There is a food in the photo featuring Varied shapes and colors depending on type (fruits, vegetables, cooked dishes, etc.)', 'There is a food in the photo featuring Texture can range from smooth to rough, cooked or raw', 'There is a food in the photo featuring Often served on plates or in containers', 'There is a food in the photo featuring Variety in size and appearance based on type of food']]
+descriptors:  ['There is a Okulus in the photo featuring Circular or rounded, lens-like', 'There is a Okulus in the photo featuring Often black or dark gray with reflective surfaces', 'There is a Okulus in the photo featuring Smooth, possibly with glossy or matte finishes', 'There is a Okulus in the photo featuring Small, handheld device size']
+classname:  There is a Okulus in the photo featuring Circular or rounded, lens-like
+textsif:  There is a Okulus in the photo featuring Circular or rounded, lens-like
+texts1:  There is a Okulus in the photo featuring Circular or rounded, lens-like
 texts2:  torch.Size([1, 77])
-classname:  Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.
-classname_splits:  ['Ukulele: Small', 'guitar-like with a rounded body and a narrow neck. Typically wooden (brown)', 'but can be other colors. Wooden', 'with visible wood grain. Small', 'compact', 'fits in the hands.']
-textsif:  ['A photo of a Ukulele: Small in the scene']
-texts1:  ['A photo of a Ukulele: Small in the scene']
+classname:  There is a Okulus in the photo featuring Often black or dark gray with reflective surfaces
+textelse:  There is a Okulus in the photo featuring Often black or dark gray with reflective surfaces
+texts1:  There is a Okulus in the photo featuring Often black or dark gray with reflective surfaces
 texts2:  torch.Size([1, 77])
-classname:  table
-textelse:  ['A photo of a table in the scene']
-texts1:  ['A photo of a table in the scene']
+classname:  There is a Okulus in the photo featuring Smooth, possibly with glossy or matte finishes
+textsif:  There is a Okulus in the photo featuring Smooth, possibly with glossy or matte finishes
+texts1:  There is a Okulus in the photo featuring Smooth, possibly with glossy or matte finishes
 texts2:  torch.Size([1, 77])
-classname:  person
-textelse:  ['A photo of a person in the scene']
-texts1:  ['A photo of a person in the scene']
+classname:  There is a Okulus in the photo featuring Small, handheld device size
+textsif:  There is a Okulus in the photo featuring Small, handheld device size
+texts1:  There is a Okulus in the photo featuring Small, handheld device size
 texts2:  torch.Size([1, 77])
-classname:  cat
-textelse:  ['A photo of a cat in the scene']
-texts1:  ['A photo of a cat in the scene']
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a Ukulele in the photo featuring Small, guitar-like with a rounded body and a narrow neck', 'There is a Ukulele in the photo featuring Typically wooden (brown), but can be other colors', 'There is a Ukulele in the photo featuring Wooden, with visible wood grain', 'There is a Ukulele in the photo featuring Small, compact, fits in the hands']
+classname:  There is a Ukulele in the photo featuring Small, guitar-like with a rounded body and a narrow neck
+textsif:  There is a Ukulele in the photo featuring Small, guitar-like with a rounded body and a narrow neck
+texts1:  There is a Ukulele in the photo featuring Small, guitar-like with a rounded body and a narrow neck
 texts2:  torch.Size([1, 77])
-classname:  dog
-textelse:  ['A photo of a dog in the scene']
-texts1:  ['A photo of a dog in the scene']
+classname:  There is a Ukulele in the photo featuring Typically wooden (brown), but can be other colors
+textsif:  There is a Ukulele in the photo featuring Typically wooden (brown), but can be other colors
+texts1:  There is a Ukulele in the photo featuring Typically wooden (brown), but can be other colors
 texts2:  torch.Size([1, 77])
-classname:  background
-textelse:  ['A photo of a background in the scene']
-texts1:  ['A photo of a background in the scene']
+classname:  There is a Ukulele in the photo featuring Wooden, with visible wood grain
+textsif:  There is a Ukulele in the photo featuring Wooden, with visible wood grain
+texts1:  There is a Ukulele in the photo featuring Wooden, with visible wood grain
 texts2:  torch.Size([1, 77])
-tokens:  torch.Size([7, 77])
-finaltokens:  torch.Size([7, 77])
-class_embeddings:  torch.Size([7, 1, 768])
-shape:  torch.Size([7, 1, 768])
+classname:  There is a Ukulele in the photo featuring Small, compact, fits in the hands
+textsif:  There is a Ukulele in the photo featuring Small, compact, fits in the hands
+texts1:  There is a Ukulele in the photo featuring Small, compact, fits in the hands
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a table in the photo featuring Flat surface, usually rectangular or circular', 'There is a table in the photo featuring Variety of colors, often wooden or metallic', 'There is a table in the photo featuring Smooth surface, may have wood grain or be metallic', 'There is a table in the photo featuring Medium to large size, depending on type (dining, coffee table, etc.)']
+classname:  There is a table in the photo featuring Flat surface, usually rectangular or circular
+textsif:  There is a table in the photo featuring Flat surface, usually rectangular or circular
+texts1:  There is a table in the photo featuring Flat surface, usually rectangular or circular
+texts2:  torch.Size([1, 77])
+classname:  There is a table in the photo featuring Variety of colors, often wooden or metallic
+textsif:  There is a table in the photo featuring Variety of colors, often wooden or metallic
+texts1:  There is a table in the photo featuring Variety of colors, often wooden or metallic
+texts2:  torch.Size([1, 77])
+classname:  There is a table in the photo featuring Smooth surface, may have wood grain or be metallic
+textsif:  There is a table in the photo featuring Smooth surface, may have wood grain or be metallic
+texts1:  There is a table in the photo featuring Smooth surface, may have wood grain or be metallic
+texts2:  torch.Size([1, 77])
+classname:  There is a table in the photo featuring Medium to large size, depending on type (dining, coffee table, etc.)
+textsif:  There is a table in the photo featuring Medium to large size, depending on type (dining, coffee table, etc.)
+texts1:  There is a table in the photo featuring Medium to large size, depending on type (dining, coffee table, etc.)
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a person in the photo featuring Human silhouette with arms, legs, and head', 'There is a person in the photo featuring Variety of skin tones and clothing colors', 'There is a person in the photo featuring Clothing may have patterns, hair can vary in texture', 'There is a person in the photo featuring Human-sized, with diverse body shapes']
+classname:  There is a person in the photo featuring Human silhouette with arms, legs, and head
+textsif:  There is a person in the photo featuring Human silhouette with arms, legs, and head
+texts1:  There is a person in the photo featuring Human silhouette with arms, legs, and head
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Variety of skin tones and clothing colors
+textelse:  There is a person in the photo featuring Variety of skin tones and clothing colors
+texts1:  There is a person in the photo featuring Variety of skin tones and clothing colors
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Clothing may have patterns, hair can vary in texture
+textsif:  There is a person in the photo featuring Clothing may have patterns, hair can vary in texture
+texts1:  There is a person in the photo featuring Clothing may have patterns, hair can vary in texture
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Human-sized, with diverse body shapes
+textsif:  There is a person in the photo featuring Human-sized, with diverse body shapes
+texts1:  There is a person in the photo featuring Human-sized, with diverse body shapes
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a cat in the photo featuring Small, compact shape with a curved spine', 'There is a cat in the photo featuring Pointed ears, long whiskers, and a tail', 'There is a cat in the photo featuring Fur color varies (black, white, brown, etc.), often with visible patterns', 'There is a cat in the photo featuring Soft, fluffy fur texture', 'There is a cat in the photo featuring Small size, fits in the arms']
+classname:  There is a cat in the photo featuring Small, compact shape with a curved spine
+textsif:  There is a cat in the photo featuring Small, compact shape with a curved spine
+texts1:  There is a cat in the photo featuring Small, compact shape with a curved spine
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Pointed ears, long whiskers, and a tail
+textsif:  There is a cat in the photo featuring Pointed ears, long whiskers, and a tail
+texts1:  There is a cat in the photo featuring Pointed ears, long whiskers, and a tail
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Fur color varies (black, white, brown, etc.), often with visible patterns
+textsif:  There is a cat in the photo featuring Fur color varies (black, white, brown, etc.), often with visible patterns
+texts1:  There is a cat in the photo featuring Fur color varies (black, white, brown, etc.), often with visible patterns
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Soft, fluffy fur texture
+textsif:  There is a cat in the photo featuring Soft, fluffy fur texture
+texts1:  There is a cat in the photo featuring Soft, fluffy fur texture
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Small size, fits in the arms
+textsif:  There is a cat in the photo featuring Small size, fits in the arms
+texts1:  There is a cat in the photo featuring Small size, fits in the arms
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a dog in the photo featuring Medium-sized, four-legged with a more muscular build', 'There is a dog in the photo featuring Floppy or pointed ears, long tail', 'There is a dog in the photo featuring Fur color ranges widely with distinct patterns', 'There is a dog in the photo featuring Fur texture can be smooth, short, or long, depending on breed', 'There is a dog in the photo featuring Generally larger than a cat']
+classname:  There is a dog in the photo featuring Medium-sized, four-legged with a more muscular build
+textsif:  There is a dog in the photo featuring Medium-sized, four-legged with a more muscular build
+texts1:  There is a dog in the photo featuring Medium-sized, four-legged with a more muscular build
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Floppy or pointed ears, long tail
+textsif:  There is a dog in the photo featuring Floppy or pointed ears, long tail
+texts1:  There is a dog in the photo featuring Floppy or pointed ears, long tail
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Fur color ranges widely with distinct patterns
+textelse:  There is a dog in the photo featuring Fur color ranges widely with distinct patterns
+texts1:  There is a dog in the photo featuring Fur color ranges widely with distinct patterns
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Fur texture can be smooth, short, or long, depending on breed
+textsif:  There is a dog in the photo featuring Fur texture can be smooth, short, or long, depending on breed
+texts1:  There is a dog in the photo featuring Fur texture can be smooth, short, or long, depending on breed
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Generally larger than a cat
+textelse:  There is a dog in the photo featuring Generally larger than a cat
+texts1:  There is a dog in the photo featuring Generally larger than a cat
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a background in the photo featuring Usually less detailed than foreground objects', 'There is a background in the photo featuring Variety of colors depending on environment (e.g., green for grass, blue for sky)', 'There is a background in the photo featuring Smooth or textured, depending on elements like grass, sky, or walls', 'There is a background in the photo featuring Can be blurred or less distinct, providing context for main objects']
+classname:  There is a background in the photo featuring Usually less detailed than foreground objects
+textelse:  There is a background in the photo featuring Usually less detailed than foreground objects
+texts1:  There is a background in the photo featuring Usually less detailed than foreground objects
+texts2:  torch.Size([1, 77])
+classname:  There is a background in the photo featuring Variety of colors depending on environment (e.g., green for grass, blue for sky)
+textsif:  There is a background in the photo featuring Variety of colors depending on environment (e.g., green for grass, blue for sky)
+texts1:  There is a background in the photo featuring Variety of colors depending on environment (e.g., green for grass, blue for sky)
+texts2:  torch.Size([1, 77])
+classname:  There is a background in the photo featuring Smooth or textured, depending on elements like grass, sky, or walls
+textsif:  There is a background in the photo featuring Smooth or textured, depending on elements like grass, sky, or walls
+texts1:  There is a background in the photo featuring Smooth or textured, depending on elements like grass, sky, or walls
+texts2:  torch.Size([1, 77])
+classname:  There is a background in the photo featuring Can be blurred or less distinct, providing context for main objects
+textsif:  There is a background in the photo featuring Can be blurred or less distinct, providing context for main objects
+texts1:  There is a background in the photo featuring Can be blurred or less distinct, providing context for main objects
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a chair in the photo featuring Typically has a seat, backrest, and four legs', 'There is a chair in the photo featuring Often made of wood, metal, or plastic, with various colors and finishes', 'There is a chair in the photo featuring Surface may be padded or cushioned', 'There is a chair in the photo featuring Variety in shape, from traditional to modern styles']
+classname:  There is a chair in the photo featuring Typically has a seat, backrest, and four legs
+textsif:  There is a chair in the photo featuring Typically has a seat, backrest, and four legs
+texts1:  There is a chair in the photo featuring Typically has a seat, backrest, and four legs
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Often made of wood, metal, or plastic, with various colors and finishes
+textsif:  There is a chair in the photo featuring Often made of wood, metal, or plastic, with various colors and finishes
+texts1:  There is a chair in the photo featuring Often made of wood, metal, or plastic, with various colors and finishes
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Surface may be padded or cushioned
+textelse:  There is a chair in the photo featuring Surface may be padded or cushioned
+texts1:  There is a chair in the photo featuring Surface may be padded or cushioned
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Variety in shape, from traditional to modern styles
+textsif:  There is a chair in the photo featuring Variety in shape, from traditional to modern styles
+texts1:  There is a chair in the photo featuring Variety in shape, from traditional to modern styles
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a window in the photo featuring Frame with glass panes, often rectangular or square', 'There is a window in the photo featuring Typically has a transparent or semi-transparent appearance', 'There is a window in the photo featuring Frames can be wooden, metal, or plastic', 'There is a window in the photo featuring Can have curtains or blinds that add texture or patterns']
+classname:  There is a window in the photo featuring Frame with glass panes, often rectangular or square
+textsif:  There is a window in the photo featuring Frame with glass panes, often rectangular or square
+texts1:  There is a window in the photo featuring Frame with glass panes, often rectangular or square
+texts2:  torch.Size([1, 77])
+classname:  There is a window in the photo featuring Typically has a transparent or semi-transparent appearance
+textelse:  There is a window in the photo featuring Typically has a transparent or semi-transparent appearance
+texts1:  There is a window in the photo featuring Typically has a transparent or semi-transparent appearance
+texts2:  torch.Size([1, 77])
+classname:  There is a window in the photo featuring Frames can be wooden, metal, or plastic
+textsif:  There is a window in the photo featuring Frames can be wooden, metal, or plastic
+texts1:  There is a window in the photo featuring Frames can be wooden, metal, or plastic
+texts2:  torch.Size([1, 77])
+classname:  There is a window in the photo featuring Can have curtains or blinds that add texture or patterns
+textelse:  There is a window in the photo featuring Can have curtains or blinds that add texture or patterns
+texts1:  There is a window in the photo featuring Can have curtains or blinds that add texture or patterns
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a bulb in the photo featuring Small, rounded shape, often with a glass or plastic exterior', 'There is a bulb in the photo featuring Transparent or frosted, with a light-emitting element inside', 'There is a bulb in the photo featuring Variety of colors, mostly white or clear when unlit', 'There is a bulb in the photo featuring Typically fits into a light fixture']
+classname:  There is a bulb in the photo featuring Small, rounded shape, often with a glass or plastic exterior
+textsif:  There is a bulb in the photo featuring Small, rounded shape, often with a glass or plastic exterior
+texts1:  There is a bulb in the photo featuring Small, rounded shape, often with a glass or plastic exterior
+texts2:  torch.Size([1, 77])
+classname:  There is a bulb in the photo featuring Transparent or frosted, with a light-emitting element inside
+textsif:  There is a bulb in the photo featuring Transparent or frosted, with a light-emitting element inside
+texts1:  There is a bulb in the photo featuring Transparent or frosted, with a light-emitting element inside
+texts2:  torch.Size([1, 77])
+classname:  There is a bulb in the photo featuring Variety of colors, mostly white or clear when unlit
+textsif:  There is a bulb in the photo featuring Variety of colors, mostly white or clear when unlit
+texts1:  There is a bulb in the photo featuring Variety of colors, mostly white or clear when unlit
+texts2:  torch.Size([1, 77])
+classname:  There is a bulb in the photo featuring Typically fits into a light fixture
+textelse:  There is a bulb in the photo featuring Typically fits into a light fixture
+texts1:  There is a bulb in the photo featuring Typically fits into a light fixture
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a plate in the photo featuring Flat, usually round or oval', 'There is a plate in the photo featuring Typically ceramic, glass, or plastic, with various colors and patterns', 'There is a plate in the photo featuring Surface is smooth, often with decorative edges', 'There is a plate in the photo featuring Small to medium size, used for serving food']
+classname:  There is a plate in the photo featuring Flat, usually round or oval
+textsif:  There is a plate in the photo featuring Flat, usually round or oval
+texts1:  There is a plate in the photo featuring Flat, usually round or oval
+texts2:  torch.Size([1, 77])
+classname:  There is a plate in the photo featuring Typically ceramic, glass, or plastic, with various colors and patterns
+textsif:  There is a plate in the photo featuring Typically ceramic, glass, or plastic, with various colors and patterns
+texts1:  There is a plate in the photo featuring Typically ceramic, glass, or plastic, with various colors and patterns
+texts2:  torch.Size([1, 77])
+classname:  There is a plate in the photo featuring Surface is smooth, often with decorative edges
+textsif:  There is a plate in the photo featuring Surface is smooth, often with decorative edges
+texts1:  There is a plate in the photo featuring Surface is smooth, often with decorative edges
+texts2:  torch.Size([1, 77])
+classname:  There is a plate in the photo featuring Small to medium size, used for serving food
+textsif:  There is a plate in the photo featuring Small to medium size, used for serving food
+texts1:  There is a plate in the photo featuring Small to medium size, used for serving food
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a walls in the photo featuring Flat surfaces that form the boundaries of a room or structure', 'There is a walls in the photo featuring Variety of colors and textures (painted, wallpapered, brick, etc.)', 'There is a walls in the photo featuring Typically vertical, forming part of the building structure', 'There is a walls in the photo featuring May have windows, doors, or other features integrated']
+classname:  There is a walls in the photo featuring Flat surfaces that form the boundaries of a room or structure
+textelse:  There is a walls in the photo featuring Flat surfaces that form the boundaries of a room or structure
+texts1:  There is a walls in the photo featuring Flat surfaces that form the boundaries of a room or structure
+texts2:  torch.Size([1, 77])
+classname:  There is a walls in the photo featuring Variety of colors and textures (painted, wallpapered, brick, etc.)
+textsif:  There is a walls in the photo featuring Variety of colors and textures (painted, wallpapered, brick, etc.)
+texts1:  There is a walls in the photo featuring Variety of colors and textures (painted, wallpapered, brick, etc.)
+texts2:  torch.Size([1, 77])
+classname:  There is a walls in the photo featuring Typically vertical, forming part of the building structure
+textsif:  There is a walls in the photo featuring Typically vertical, forming part of the building structure
+texts1:  There is a walls in the photo featuring Typically vertical, forming part of the building structure
+texts2:  torch.Size([1, 77])
+classname:  There is a walls in the photo featuring May have windows, doors, or other features integrated
+textsif:  There is a walls in the photo featuring May have windows, doors, or other features integrated
+texts1:  There is a walls in the photo featuring May have windows, doors, or other features integrated
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a glass in the photo featuring Transparent or translucent, can be flat or curved', 'There is a glass in the photo featuring Surface is smooth and reflective', 'There is a glass in the photo featuring Colorless or tinted, depending on the type', 'There is a glass in the photo featuring Often used in windows, containers, or decorative items']
+classname:  There is a glass in the photo featuring Transparent or translucent, can be flat or curved
+textsif:  There is a glass in the photo featuring Transparent or translucent, can be flat or curved
+texts1:  There is a glass in the photo featuring Transparent or translucent, can be flat or curved
+texts2:  torch.Size([1, 77])
+classname:  There is a glass in the photo featuring Surface is smooth and reflective
+textelse:  There is a glass in the photo featuring Surface is smooth and reflective
+texts1:  There is a glass in the photo featuring Surface is smooth and reflective
+texts2:  torch.Size([1, 77])
+classname:  There is a glass in the photo featuring Colorless or tinted, depending on the type
+textsif:  There is a glass in the photo featuring Colorless or tinted, depending on the type
+texts1:  There is a glass in the photo featuring Colorless or tinted, depending on the type
+texts2:  torch.Size([1, 77])
+classname:  There is a glass in the photo featuring Often used in windows, containers, or decorative items
+textsif:  There is a glass in the photo featuring Often used in windows, containers, or decorative items
+texts1:  There is a glass in the photo featuring Often used in windows, containers, or decorative items
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a rack in the photo featuring Framework with horizontal or vertical bars or shelves', 'There is a rack in the photo featuring Often made of metal or wood, with various finishes', 'There is a rack in the photo featuring Used for storing or displaying items', 'There is a rack in the photo featuring Varies in size, from small for kitchen utensils to large for clothing']
+classname:  There is a rack in the photo featuring Framework with horizontal or vertical bars or shelves
+textelse:  There is a rack in the photo featuring Framework with horizontal or vertical bars or shelves
+texts1:  There is a rack in the photo featuring Framework with horizontal or vertical bars or shelves
+texts2:  torch.Size([1, 77])
+classname:  There is a rack in the photo featuring Often made of metal or wood, with various finishes
+textsif:  There is a rack in the photo featuring Often made of metal or wood, with various finishes
+texts1:  There is a rack in the photo featuring Often made of metal or wood, with various finishes
+texts2:  torch.Size([1, 77])
+classname:  There is a rack in the photo featuring Used for storing or displaying items
+textelse:  There is a rack in the photo featuring Used for storing or displaying items
+texts1:  There is a rack in the photo featuring Used for storing or displaying items
+texts2:  torch.Size([1, 77])
+classname:  There is a rack in the photo featuring Varies in size, from small for kitchen utensils to large for clothing
+textsif:  There is a rack in the photo featuring Varies in size, from small for kitchen utensils to large for clothing
+texts1:  There is a rack in the photo featuring Varies in size, from small for kitchen utensils to large for clothing
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a door in the photo featuring Flat, rectangular panels that open and close', 'There is a door in the photo featuring Frames made of wood, metal, or glass', 'There is a door in the photo featuring Variety of colors and finishes (painted, stained, glass inserts)', 'There is a door in the photo featuring Typically has a handle or knob for opening']
+classname:  There is a door in the photo featuring Flat, rectangular panels that open and close
+textsif:  There is a door in the photo featuring Flat, rectangular panels that open and close
+texts1:  There is a door in the photo featuring Flat, rectangular panels that open and close
+texts2:  torch.Size([1, 77])
+classname:  There is a door in the photo featuring Frames made of wood, metal, or glass
+textsif:  There is a door in the photo featuring Frames made of wood, metal, or glass
+texts1:  There is a door in the photo featuring Frames made of wood, metal, or glass
+texts2:  torch.Size([1, 77])
+classname:  There is a door in the photo featuring Variety of colors and finishes (painted, stained, glass inserts)
+textsif:  There is a door in the photo featuring Variety of colors and finishes (painted, stained, glass inserts)
+texts1:  There is a door in the photo featuring Variety of colors and finishes (painted, stained, glass inserts)
+texts2:  torch.Size([1, 77])
+classname:  There is a door in the photo featuring Typically has a handle or knob for opening
+textelse:  There is a door in the photo featuring Typically has a handle or knob for opening
+texts1:  There is a door in the photo featuring Typically has a handle or knob for opening
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a tower in the photo featuring Tall, vertical structure, often cylindrical or rectangular', 'There is a tower in the photo featuring Constructed from materials like concrete, steel, or brick', 'There is a tower in the photo featuring Can have a variety of colors and textures depending on function (communication, observation)', 'There is a tower in the photo featuring Generally tall and prominent in the landscape']
+classname:  There is a tower in the photo featuring Tall, vertical structure, often cylindrical or rectangular
+textsif:  There is a tower in the photo featuring Tall, vertical structure, often cylindrical or rectangular
+texts1:  There is a tower in the photo featuring Tall, vertical structure, often cylindrical or rectangular
+texts2:  torch.Size([1, 77])
+classname:  There is a tower in the photo featuring Constructed from materials like concrete, steel, or brick
+textsif:  There is a tower in the photo featuring Constructed from materials like concrete, steel, or brick
+texts1:  There is a tower in the photo featuring Constructed from materials like concrete, steel, or brick
+texts2:  torch.Size([1, 77])
+classname:  There is a tower in the photo featuring Can have a variety of colors and textures depending on function (communication, observation)
+textsif:  There is a tower in the photo featuring Can have a variety of colors and textures depending on function (communication, observation)
+texts1:  There is a tower in the photo featuring Can have a variety of colors and textures depending on function (communication, observation)
+texts2:  torch.Size([1, 77])
+classname:  There is a tower in the photo featuring Generally tall and prominent in the landscape
+textelse:  There is a tower in the photo featuring Generally tall and prominent in the landscape
+texts1:  There is a tower in the photo featuring Generally tall and prominent in the landscape
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a tablecloth in the photo featuring Fabric covering that drapes over a table', 'There is a tablecloth in the photo featuring Variety of colors and patterns (plain, patterned, checkered, etc.)', 'There is a tablecloth in the photo featuring Surface is typically smooth, may be textured or embroidered', 'There is a tablecloth in the photo featuring Covers the entire surface of the table']
+classname:  There is a tablecloth in the photo featuring Fabric covering that drapes over a table
+textelse:  There is a tablecloth in the photo featuring Fabric covering that drapes over a table
+texts1:  There is a tablecloth in the photo featuring Fabric covering that drapes over a table
+texts2:  torch.Size([1, 77])
+classname:  There is a tablecloth in the photo featuring Variety of colors and patterns (plain, patterned, checkered, etc.)
+textsif:  There is a tablecloth in the photo featuring Variety of colors and patterns (plain, patterned, checkered, etc.)
+texts1:  There is a tablecloth in the photo featuring Variety of colors and patterns (plain, patterned, checkered, etc.)
+texts2:  torch.Size([1, 77])
+classname:  There is a tablecloth in the photo featuring Surface is typically smooth, may be textured or embroidered
+textsif:  There is a tablecloth in the photo featuring Surface is typically smooth, may be textured or embroidered
+texts1:  There is a tablecloth in the photo featuring Surface is typically smooth, may be textured or embroidered
+texts2:  torch.Size([1, 77])
+classname:  There is a tablecloth in the photo featuring Covers the entire surface of the table
+textelse:  There is a tablecloth in the photo featuring Covers the entire surface of the table
+texts1:  There is a tablecloth in the photo featuring Covers the entire surface of the table
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a food in the photo featuring Varied shapes and colors depending on type (fruits, vegetables, cooked dishes, etc.)', 'There is a food in the photo featuring Texture can range from smooth to rough, cooked or raw', 'There is a food in the photo featuring Often served on plates or in containers', 'There is a food in the photo featuring Variety in size and appearance based on type of food']
+classname:  There is a food in the photo featuring Varied shapes and colors depending on type (fruits, vegetables, cooked dishes, etc.)
+textsif:  There is a food in the photo featuring Varied shapes and colors depending on type (fruits, vegetables, cooked dishes, etc.)
+texts1:  There is a food in the photo featuring Varied shapes and colors depending on type (fruits, vegetables, cooked dishes, etc.)
+texts2:  torch.Size([1, 77])
+classname:  There is a food in the photo featuring Texture can range from smooth to rough, cooked or raw
+textsif:  There is a food in the photo featuring Texture can range from smooth to rough, cooked or raw
+texts1:  There is a food in the photo featuring Texture can range from smooth to rough, cooked or raw
+texts2:  torch.Size([1, 77])
+classname:  There is a food in the photo featuring Often served on plates or in containers
+textelse:  There is a food in the photo featuring Often served on plates or in containers
+texts1:  There is a food in the photo featuring Often served on plates or in containers
+texts2:  torch.Size([1, 77])
+classname:  There is a food in the photo featuring Variety in size and appearance based on type of food
+textelse:  There is a food in the photo featuring Variety in size and appearance based on type of food
+texts1:  There is a food in the photo featuring Variety in size and appearance based on type of food
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([4, 77])
+class_embeddings:  torch.Size([4, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+final_tokens:  18
+final_tokens:  torch.Size([18, 1, 768])
+shape:  torch.Size([18, 1, 768])

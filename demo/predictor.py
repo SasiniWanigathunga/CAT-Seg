@@ -25,7 +25,8 @@ class VisualizationDemo(object):
                 Useful since the visualization logic can be slow.
         """
         with open('datasets/example.json') as f:
-            my_custom_classes = json.load(f)
+            data = json.load(f)
+        my_custom_classes = [key for key,_ in data.items()]
 
         dataset_name = "my_custom_dataset"
         MetadataCatalog.get(dataset_name).thing_classes = my_custom_classes
