@@ -1,2 +1,0 @@
-text rack
-Metadata(name='my_custom_dataset', thing_classes=['Okulus', 'Ukulele', 'table', 'person', 'cat', 'dog', 'background', 'chair', 'window', 'bulb', 'plate', 'walls', 'glass', 'rack', 'door', 'tower', 'tablecloth', 'food'], stuff_classes=['Okulus', 'Ukulele', 'table', 'person', 'cat', 'dog', 'background', 'chair', 'window', 'bulb', 'plate', 'walls', 'glass', 'rack', 'door', 'tower', 'tablecloth', 'food'])
