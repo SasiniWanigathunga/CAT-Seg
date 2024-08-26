@@ -55,6 +55,9 @@ class CATSegPredictor(nn.Module):
             self.class_texts = json.load(f_in)
         with open(test_class_json, 'r') as f_in:
             self.test_class_texts = json.load(f_in)
+        # with open(test_class_json, 'r') as f_in:
+        #     data = json.load(f_in)
+        #     self.test_class_texts = [[f"{key}, {attribute}" for attribute in attributes] for key, attributes in data.items()]
         assert self.class_texts != None
         if self.test_class_texts == None:
             self.test_class_texts = self.class_texts
@@ -161,8 +164,11 @@ class CATSegPredictor(nn.Module):
         # write in prints.txt for debugging
         with open('prints.txt', 'a') as f:
             print("text: ", text, file=f)
-            print("prompt: ", prompt, file=f)
+        with open('textembeddings.txt', 'w') as f:
+            print("text: ", text, file=f)
         text = self.get_text_embeds(text, self.prompt_templates, self.clip_model, prompt)
+        with open('textembeddings.txt', 'a') as f:
+            print("shape: ", text.shape, file=f)
         
         text = text.repeat(x.shape[0], 1, 1, 1)
         out = self.transformer(x, text, vis)
@@ -205,21 +211,37 @@ class CATSegPredictor(nn.Module):
         if self.tokens is None or prompt is not None:
             tokens = []
             for classname in classnames:
+                with open('textembeddings.txt', 'a') as f:
+                    print("classname: ", classname, file=f)
                 if ', ' in classname:
                     classname_splits = classname.split(', ')
+                    with open('textembeddings.txt', 'a') as f:
+                        print("classname_splits: ", classname_splits, file=f)
                     texts = [template.format(classname_splits[0]) for template in templates]
+                    with open('textembeddings.txt', 'a') as f:
+                        print("textsif: ", texts, file=f)
                 else:
                     texts = [template.format(classname) for template in templates]  # format with class
+                    with open('textembeddings.txt', 'a') as f:
+                        print("textelse: ", texts, file=f)
+                with open('textembeddings.txt', 'a') as f:
+                    print("texts1: ", texts, file=f)
                 if self.tokenizer is not None:
                     texts = self.tokenizer(texts).cuda()
                 else: 
                     texts = clip.tokenize(texts).cuda()
+                with open('textembeddings.txt', 'a') as f:
+                    print("texts2: ", texts.shape, file=f)
                 tokens.append(texts)
             tokens = torch.stack(tokens, dim=0).squeeze(1)
+            with open('textembeddings.txt', 'a') as f:
+                print("tokens: ", tokens.shape, file=f)
             if prompt is None:
                 self.tokens = tokens
         elif self.tokens is not None and prompt is None:
             tokens = self.tokens
+        with open('textembeddings.txt', 'a') as f:
+            print("finaltokens: ", tokens.shape, file=f)
 
         class_embeddings = clip_model.encode_text(tokens, prompt)
         class_embeddings = class_embeddings / class_embeddings.norm(dim=-1, keepdim=True)
@@ -229,5 +251,6 @@ class CATSegPredictor(nn.Module):
         
         if not self.training:
             self.cache = class_embeddings
-            
+        with open('textembeddings.txt', 'a') as f:
+            print("class_embeddings: ", class_embeddings.shape, file=f)
         return class_embeddings

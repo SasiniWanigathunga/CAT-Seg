@@ -12,8 +12,8 @@ DATASETS:
   PRECOMPUTED_PROPOSAL_TOPK_TRAIN: 2000
   PROPOSAL_FILES_TEST: ()
   PROPOSAL_FILES_TRAIN: ()
-  TEST: ('coco_2017_test_stuff_all_sem_seg',)
-  TRAIN: ('coco_2017_train_stuff_all_sem_seg',)
+  TEST: ('my_custom_dataset',)
+  TRAIN: ('my_custom_dataset',)
   VAL_ALL: ('coco_2017_val_all_stuff_sem_seg',)
 FLOAT32_PRECISION: 
 GLOBAL:
@@ -199,7 +199,7 @@ MODEL:
     LOSS_WEIGHT: 1.0
     NAME: CATSegHead
     NORM: GN
-    NUM_CLASSES: 6
+    NUM_CLASSES: -6
     NUM_HEADS: 4
     NUM_LAYERS: 2
     POOLING_SIZES: [2, 2]
@@ -284,11 +284,10 @@ TEST:
   SLIDING_WINDOW: False
 VERSION: 2
 VIS_PERIOD: 0
-self.class_texts:  ['guitar', 'bag', 'table', 'person', 'cat', 'dog']
-self.test_class_texts:  ['guitar', 'bag', 'table', 'person', 'cat', 'dog']
-classnames:  ['guitar', 'bag', 'table', 'person', 'cat', 'dog']
+self.class_texts:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']
+self.test_class_texts:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']
+classnames:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']
 templates:  ['A photo of a {} in the scene']
-classnames:  ['guitar', 'bag', 'table', 'person', 'cat', 'dog']
+classnames:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']
 templates:  ['A photo of a {} in the scene']
-text:  ['guitar', 'bag', 'table', 'person', 'cat', 'dog']
-prompt:  None
+text:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']

@@ -569,5 +569,5 @@ transformer_predictor: CATSegPredictor(
     (head): Conv2d(32, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
   )
 )
-num_classes: 6
+num_classes: -6
 ignore_value: 255

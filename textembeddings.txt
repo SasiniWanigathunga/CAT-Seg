@@ -1,0 +1,35 @@
+text:  ['Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size', 'Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.', 'table', 'person', 'cat', 'dog', 'background']
+classname:  Okulus: Circular or rounded, lens-like. Often black or dark gray with reflective surfaces. Smooth, possibly with glossy or matte finishes. Small, handheld device size
+classname_splits:  ['Okulus: Circular or rounded', 'lens-like. Often black or dark gray with reflective surfaces. Smooth', 'possibly with glossy or matte finishes. Small', 'handheld device size']
+textsif:  ['A photo of a Okulus: Circular or rounded in the scene']
+texts1:  ['A photo of a Okulus: Circular or rounded in the scene']
+texts2:  torch.Size([1, 77])
+classname:  Ukulele: Small, guitar-like with a rounded body and a narrow neck. Typically wooden (brown), but can be other colors. Wooden, with visible wood grain. Small, compact, fits in the hands.
+classname_splits:  ['Ukulele: Small', 'guitar-like with a rounded body and a narrow neck. Typically wooden (brown)', 'but can be other colors. Wooden', 'with visible wood grain. Small', 'compact', 'fits in the hands.']
+textsif:  ['A photo of a Ukulele: Small in the scene']
+texts1:  ['A photo of a Ukulele: Small in the scene']
+texts2:  torch.Size([1, 77])
+classname:  table
+textelse:  ['A photo of a table in the scene']
+texts1:  ['A photo of a table in the scene']
+texts2:  torch.Size([1, 77])
+classname:  person
+textelse:  ['A photo of a person in the scene']
+texts1:  ['A photo of a person in the scene']
+texts2:  torch.Size([1, 77])
+classname:  cat
+textelse:  ['A photo of a cat in the scene']
+texts1:  ['A photo of a cat in the scene']
+texts2:  torch.Size([1, 77])
+classname:  dog
+textelse:  ['A photo of a dog in the scene']
+texts1:  ['A photo of a dog in the scene']
+texts2:  torch.Size([1, 77])
+classname:  background
+textelse:  ['A photo of a background in the scene']
+texts1:  ['A photo of a background in the scene']
+texts2:  torch.Size([1, 77])
+tokens:  torch.Size([7, 77])
+finaltokens:  torch.Size([7, 77])
+class_embeddings:  torch.Size([7, 1, 768])
+shape:  torch.Size([7, 1, 768])
