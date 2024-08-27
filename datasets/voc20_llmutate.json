@@ -1,0 +1,142 @@
+{
+    "aeroplane": [
+        "Presence and configuration of distinctive engine nacelles and their relative position to the wings ",
+        "Presence and configuration of distinctive engine nacelles and their relative position to the wings, including any visible engine exhaust plumes. ",
+        "Presence and configuration of distinctive exhaust plumes, considering their shape, size, number, and relative position to the aircraft. ",
+        "Presence and Configuration of Distinctive  Nacelle-to-Wing Integration Designs   ",
+        "Presence and configuration of distinctive landing gear, taking into account the number of wheels, their arrangement e.g., tricycle, tailwheel, and whether they are retractable or fixed. "
+    ],
+    "bicycle": [
+        "Has a single chain ring on the crankset ",
+        "Presence of a chain connecting a crankset to a rear wheel through a gear system.     ",
+        "Has a combination of handlebars, two spoked wheels, a seat, and a chain connected to the pedals.  ",
+        "Has a curved top tube extending from the frame, meeting a lower curved seat tube",
+        "Has a combination of two spoked wheels connected to a frame, with a curved top tube extending upward from a lower, curved seat tube.  "
+    ],
+    "bird": [
+        "Presence of a visible forecastle ",
+        "Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings and tail, and the presence or absence of prominent neck features.  ",
+        "Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings, tail, and head, and the presence or absence of prominent neck features.   ",
+        "Combination of beak morphology, wing loading, and presence of unique color patterns on the plumage, considering their relative size, distribution, and contrast to the overall body coloration. ",
+        "Combination of beak morphology, wing shape complexity, tail feather arrangement, and plumage pattern complexity relative to body size.   "
+    ],
+    "boat": [
+        "Mast  ",
+        "Presence of a  rudder ",
+        "Presence of distinctive lifelines or guardrails running along the deck edge ",
+        "Presence of distinct hull shape contrasting with the surrounding natural or man-made environment. ",
+        "Presence of distinct appendages or attachments extending from the hull, such as rudders, propellers, or outriggers.  "
+    ],
+    "bottle": [
+        "Having a noticeable lip with a downward curl.  ",
+        "Possessing a distinct, vertically oriented form with a noticeable shoulder, a constricted neck gracefully transitioning into a wider, rounded body culminating in a defined lip with a slight outward curve, often featuring a textured surface pattern and a discernible base shape.  ",
+        "Clear and Descriptive The language is precise and easily understood, leaving little room for misinterpretation.",
+        "Having a distinct, constricted neck transitioning smoothly into a wider, rounded body with a defined lip and a slight outward curve. ",
+        "Possessing a distinct, vertically oriented form with a constricted neck that gradually widens into a rounded body, culminating in a defined lip or rim at the widest point and featuring a translucent material with visible internal structure.  "
+    ],
+    "bus": [
+        "posseses a distinctive high-visibility, often multicolored,  front signage panel displaying the bus's route number andor destination information above the driver compartment.  ",
+        "possesses a distinctive, front-mounted, high-visibility digital display panel showcasing its route information and destination, often integrated with illuminated signage for nighttime visibility.  ",
+        "possesses a distinctive, elongated silhouette punctuated by a raised front platform and large display panels for route information and destinations.  ",
+        "possesses a distinctive combination of a raised front platform designed for passenger entry and a long, streamlined passenger compartment.  ",
+        "possesses a distinctive, high-mounted destination display panel, often featuring multiple colored electronic panels or illuminated signage integrated with the roofline, clearly visible from a distance.  "
+    ],
+    "car": [
+        "Distinctive combination of  wheel arches,  door handle placement, and  rear window shape, considering the overall vehicle silhouette relative to similar vehicles.  ",
+        "Distinctive combination of  headlight design, taillight arrangement, and overall vehicle silhouette, considering the curvature of the roofline,presence or absence of a prominent trunk, and the relation between wheel arches and overall vehicle width. ",
+        "Distinctive combination of  wheel arches, taillight configuration, and overall vehicle width relative to similar vehicles in the same class.   ",
+        "Distinctive combination of headlight shape, taillight arrangement, and overall vehicle profile, considering the curvature of the roofline, presence or absence of a prominent trunk, and wheel arch shape relative to the vehicle's overall width and height.  ",
+        "Distinct combination of  lighting signature headlights, taillights, wheel size, and body line angles in relation to the vehicle's overall height. "
+    ],
+    "cat": [
+        "Presence of a  distinctive combination of expressive facial features forward-facing eyes, a slightly downturned mouth, and prominent cheekbones relative to the overall head shape, indicative of a wild feline's predatory anatomy. ",
+        "Presence of a combination of forward-facing eyes, triangular ear shape, and a distinct, horizontally striped or spotted pattern. ",
+        "Presence of pointed ears, elongated muzzle, and vertically oriented pupils relative to typical domestic cat features. ",
+        "Presence of pointed ears relative to overall head shape ",
+        "Presence of distinctive anatomical structures unique to the species "
+    ],
+    "chair": [
+        "Presence of a sculpted seat with visible contours designed to cradle the human form, integrated into a structure with a distinct backrest. ",
+        "Presence of a visually distinct, integrated form with a  cushioned seat and an articulated backrest designed to ergonomically support an individual's sitting posture. ",
+        "Presence of a distinct, upholstered triangular form  at the junction of the seat back and arms, often featuring decorative stitching. ",
+        "Presence of a distinct, raised platform with evenly spaced visible supports beneath, suggesting a structure built to accommodate seating. ",
+        "Presence of a distinct,  pillowed or upholstered seating surface  designed to comfortably accommodate human weight, integrated into a supporting structure.  "
+    ],
+    "cow": [
+        "Presence of a distinctive combination of a bell-shaped rumen, cloven hooves, and facial features characteristic of a bovine muzzle broad, flat, with prominent dewlap and vertically oriented nostrils ",
+        "Presence of a distinct  combination of a bell-shaped rumen, a prominent udder with multiple teats, and cloven hooves, aligned along a midline axis. ",
+        "Presence of four cloven hooves, a udder with multiple teats, and a distinct bell-shaped rumen coupled with a muzzle adapted for grazing. ",
+        "Presence of  a distinct, four-chambered ruminant digestive system visually evident as a prominent, bell-shaped rumen bulge  coupled with cloven hooves and  muzzle features typical of grazing ruminants.   ",
+        "Presence of  a distinct, four-chambered ruminant digestive system, with well-defined rumen, reticulum, omasum, and abomasum visible externally. "
+    ],
+    "diningtable": [
+        "Has a shape suggestive of a traditional dining furniture piece, with a defined space for seating and a surface suitable for meals.  ",
+        "Has a gently sloping tabletop surface that widens towards the ends, designed to accommodate multiple place settings and subtly  guide the flow of conversation. ",
+        "Presence of multiple evenly spaced chair placement indentations or grooves on the surface, suggesting a designated area for each diner. ",
+        "Has a surface with designated spaces or sections for multiple place settings, such as individual sections for plates, glasses, and cutlery.  ",
+        "Presence of evenly spaced, defined areas or sections on the surface, suggesting designated spaces for individual place settings.  "
+    ],
+    "dog": [
+        "Presence of a canine snout with a distinct triangular shape ",
+        "Presence of a combination of  droopy eyes, a relaxed mouth, and a wagging tongue, conveying a state of contentment and playful engagement. ",
+        "Presence of a combination of a pointed muzzle with a defined stop point,  dark, almond-shaped eyes, and a  prominent  wet nose ",
+        "Presence of  a combination of a wagging tail, panting, and a soft, expressive gaze. ",
+        "Presence of proportionally large, expressive eyes with a defined slit pupil shape, positioned in forward-facing gaze suggestive of keen observation. "
+    ],
+    "horse": [
+        "Presence of a  distinct pastern - the lower segment of the leg, located between the fetlock joint and the hoof, with a distinct angular bend and a bony prominence, suggesting the unique anatomy of a horse walking.  ",
+        "Presence of a defined flight or knee bone structure, prominent and distal to the fetlock joint and directly above the pastern.  ",
+        "Presence of a distinct  dorsal crest  - a prominent rise along the back muscles, especially noticeable when the horse is in motion or reared.  ",
+        "Presence of a distinct barrel region, a rounded and muscular area expanding the horse's ribcage from its chest to the girth. ",
+        "Presence of a flowing, ridged mane and tail with a distinct hair direction and texture pattern unlike other animal species.  "
+    ],
+    "motorbike": [
+        "Presence of a compact, streamlined body design with minimal, aerodynamic covers, characteristic of a high-performance sportbike. ",
+        "Presence of a distinctive, upswept exhaust system integrated into the motorcycle's frame with a single, large, round or oval muffler. ",
+        "Presence of a distinct motorcycle-style instrument cluster integrated into the handlebars, characterized by a central speedometer flanked by smaller ancillary gauges such as fuel level indicators, tachometers, and warning lights.   ",
+        "Presence of a distinctively shaped motorcycle-style swingarm with exposed linkage connecting the rear wheel axle to the frame.  ",
+        "Presence of a distinctly contoured, sculpted fuel tank with exposed curves and contours, often positioned above the engine and visually integrating with the frame structure. "
+    ],
+    "person": [
+        "Presence and style of clothing, accessory pairings, and grooming choices that reflect a specific professional subculture or niche interest. ",
+        "Presence and style of clothing, accessories, and hairstyle combinations that convey a particular personal brand or style identity ",
+        "Presence of a green, leafy structure exhibiting a distinct form characterized by both vertical growth and a horizontal spreading of its foliage, contained within a distinct, contrasting container. ",
+        "Presence and style of clothing and accessories that communicate a recognizable  hands-on or intellectual disposition, considering functional elements alongside symbolic representations relevant to the field e.g., tool-worn aprons vs. meticulously styled glasses.  ",
+        "Combinations of Clothing Items, such as specific tool placement on a vest,  a unique pattern on a  technician's uniform, or a doctor's coat worn alongside a stethoscope that suggests a surgical specialist."
+    ],
+    "potted plant": [
+        "Presence of a green, leafy structure exhibiting distinct shadows cast by its form and the pot, creating a visually defined interplay of light and dark where the plant meets its container. ",
+        "Presence of a green, leafy structure with visible vertical growth emerging from a distinct, horizontally situated,  material contrast base. ",
+        "Presence of a green, leafy structure exhibiting distinct variegation patterns arranged within a visually contrasting pot exhibiting a defined shape and material that emphasizes plant's three-dimensional form against the surrounding background. ",
+        "Presence of a  distinct color transition where the plant's foliage meets the pot, suggesting a visual boundary between the plant and its container. ",
+        "Presence of a green, leafy structure exhibiting a distinct upward growth trend, contained within a container exhibiting a contrasting color and texture to both the plant itself and the surrounding background, and demonstrating a consistent visual separation between the plant and its immediate context. "
+    ],
+    "sheep": [
+        "Mid-century modern style with exposed wooden joinery ",
+        "presence  distinctive mutton fleece with prominent crimp and visible shearing marks ",
+        "presence a face with a prominent triangular brow ridge, a narrow muzzle, and a V shaped notch between the nose and upper lip giving a sheep-like skull structure.  ",
+        "presence  a face with a prominent triangular brow ridge and a narrow muzzle, indicative of a sheep-like skull structure,  paired with a  distinct V shaped notch between the nose and upper lip. ",
+        "presence a face with a combination of a prominent triangular notch between the nose and upper lip, reminiscent of a V shape, alongside large, round eyes and  prominent wool situated above the eyes  "
+    ],
+    "sofa": [
+        "Upholstered armchair with carved wooden detailing and a low, curved silhouette. ",
+        "Upholstered lounge chair with curved wooden arms and tapered legs  ",
+        "Upholstered frame with a low profile, featuring distinct curved armrests and cushions arranged for multiple occupants, often positioned in the center of a living room setting, suggesting a relaxed social space. ",
+        "Upholstered seating with a low profile and a back higher than the seat, set apart from a wall as the focal point of a living room.  ",
+        "Upholstered frame with a low profile, featuring distinct armrests and cushions arranged in multiple rows designed for accommodating multiple occupants.  "
+    ],
+    "train": [
+        "exhibits a system of interconnected passenger carriages arranged in a linear sequence above ground-level tracks, with a distinctive s shaped curve to the overall structure",
+        "exhibits a system of interconnected passenger carriages with distinctive, regularly spaced windows arranged along sloping rooflines. ",
+        "exhibits a distinctive system of multiple passenger doors spaced regularly along its side and aligned with the structure of the train. ",
+        "exhibits a distinctive system of interconnected passenger carriages with uniformly sloped rooflines gradually increasing in elevation towards the rear. ",
+        "exhibits a system of interconnected passenger compartments with a distinctive panoramic window layout regularly spaced along their sides.  "
+    ],
+    "tvmonitor": [
+        "Presents a rectangular form factor with a dedicated area designed to display moving images and accompanied by a bezel surrounding the screen.  ",
+        "Exhibits a distinct geometric pattern of illuminated elements arranged in a rectangular grid, suggesting a digital display technology. ",
+        "Exhibits a rectangular form factor and a distinct screen-to-body ratio with proportionally thin bezels surrounding the display. ",
+        "Exhibits an on-screen display OSD menu, typically appearing as a translucent overlay with text-based options and navigation controls. ",
+        "Exhibits a distinct, typically rectangular area with a smooth, polished surface designed to reflect light and display images.  "
+    ]
+}

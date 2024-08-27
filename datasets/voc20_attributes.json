@@ -1,0 +1,193 @@
+{
+    "aeroplane": [
+        "heavy and large object",
+        "rectangular or elliptical wings attached to a fuselage (body)",
+        "a tail with a vertical fin and a horizontal stabilizer",
+        "propellers or jet engines for propulsion",
+        "cockpit with one or more cockpits or cabins for the crew",
+        "windows or portholes in the fuselage",
+        "antennas or other protrusions",
+        "distinctive markings such as logos or registration numbers",
+        "tracks or condensation trails in the sky (if it is in flight)"
+    ],
+    "bicycle": [
+        "a frame made of metal or other materials",
+        "two pedals and a pedal crank on each side to power the rear wheel",
+        "a chain connecting the pedals to the rear wheel",
+        "a seat or saddle for the rider",
+        "handlebars or grips for steering",
+        "two wheels of different sizes: larger rear wheel and a smaller front wheel",
+        "brakes for stopping the bicycle",
+        "often, a water bottle holder or a rack for carrying items."
+    ],
+    "bird": [
+        "flying or perched animal",
+        "feathers covering body and wings",
+        "beak or bill",
+        "two legs with feet, sometimes standing on a perch or branch",
+        "two wings for flying (except for flightless birds)",
+        "head turned towards the direction of its beak",
+        "usually has eyes on the sides of its head for wide field of vision",
+        "often has a distinctive coloration or plumage pattern."
+    ],
+    "boat": [
+        "hull or distinct boat shape, such as a V-shape or flat-bottomed",
+        "a mast or sail, if it's a sailboat",
+        "oars or propellers if it's a rowboat or motorboat",
+        "life jackets or other safety equipment, if present",
+        "people or animals on board",
+        "a dock or other landmark, indicating a marina or boat launch",
+        "water, clearly visible, surrounding the boat",
+        "navigation lights, if visible"
+    ],
+    "bottle": [
+        "cylindrical or bottle-shaped container",
+        "narrower at the middle than at the base",
+        "neck with a small opening at the top",
+        "label or writing on the exterior",
+        "liquid or transparent interior",
+        "stopper or cap at the top to seal the opening",
+        "sometimes has a base or a label holder"
+    ],
+    "bus": [
+        "long and rectangular body",
+        "multiple rows of seats facing each other",
+        "windows running along the sides and sometimes at the back",
+        "a sign or logo on the front displaying the bus company name or route number",
+        "a destination sign above or next to the windshield",
+        "a door or doors for passengers to enter and exit",
+        "exterior handles above the windows for passengers to use when embarking or disembarking"
+    ],
+    "car": [
+        "Four wheels",
+        "A flat, boxy or streamlined body",
+        "A distinct front grille",
+        "Lights (headlights, taillights, brake lights)",
+        "Windows with visible frames",
+        "Door handles",
+        "Wheels with distinguishable rim and tire",
+        "Exhaust pipe (not present in all photos)",
+        "License plate (not present in all photos)"
+    ],
+    "cat": [
+        "Pointed ears",
+        "Whiskers on the face",
+        "Distinctive pupils (round in shape, unlike humans or lemurs)",
+        "Short, pointed snout",
+        "Round, padded paws",
+        "Tail with a tuft of fur at the end (often, but not always present)",
+        "Various coat colors, patterns, and lengths (short to long and straight or curled)"
+    ],
+    "chair": [
+        "furniture piece designed for seating",
+        "backrest and seat",
+        "four legs or a base",
+        "an armrest may be present",
+        "upholstered or wooden surface",
+        "often varied color and design",
+        "may have pillows, cushions or casters",
+        "no visible screens, electronic components, or power cords."
+    ],
+    "cow": [
+        "large, domesticated mammal",
+        "two ears with rounded tips",
+        "black and white patches on its coat, but can also be solid colored",
+        "distinct hump on its back between its shoulders",
+        "wide, horizontalmouth with rounded teeth",
+        "large, black eyes",
+        "long neck",
+        "curved horns present in some breeds",
+        "four legs with hooves."
+    ],
+    "diningtable": [
+        "legs or supports to elevate the surface",
+        "four or more sides",
+        "often has a tabletop that is smooth and flat",
+        "may have a leaf or place setting on the tabletop, indicating it is being used for food or working",
+        "may have distinctive features like patterns or colors",
+        "may have edges or borders visible."
+    ],
+    "dog": [
+        "pointy or triangular-shaped ears,",
+        "a snout,",
+        "teeth with visible canines,",
+        "different fur textures and colors (e.g., short, curly, straight, or long hair),",
+        "a tail,",
+        "visible eyes,",
+        "a collar or leash (optional),",
+        "ears can be pricked up or relaxed"
+    ],
+    "horse": [
+        "long ear that can be pricked up",
+        "mane and tail, which may be long or short",
+        "broad chest and shoulders",
+        "curved back and arched neck",
+        "large, expressive eyes",
+        "defined jawline",
+        "stripes or markings on the body may be present but are not required for identification."
+    ],
+    "motorbike": [
+        "engine",
+        "seat for the rider",
+        "handlebars",
+        "tires, typically with a round shape",
+        "rearview mirrors",
+        "front and rear lights",
+        "exhaust pipe",
+        "metallic or bright colored body",
+        "absence of doors or a roof (unless it's an enclosed bike)"
+    ],
+    "person": [
+        "two legs and two arms",
+        "a head with distinct facial features such as nose, mouth, ears, and eyes",
+        "clothing or distinctive body markings",
+        "human posture",
+        "absence of obvious animal or object features",
+        "context clues, such as the presence of other people or man-made objects in the background."
+    ],
+    "potted plant": [
+        "A container or pot made of various materials such as ceramic, plastic, or metal",
+        "Soil or potting mix visible inside the pot",
+        "Plant or plants with leaves, stems, and roots",
+        "No sign of a landscape or outdoor setting",
+        "No evidence of an animal, insect, or other organism in the photo",
+        "A watering can or other watering tool nearby might indicate a potted plant is being cared for",
+        "Sometimes, there are labels or tags on the pot indicating the plant species or care instructions."
+    ],
+    "sheep": [
+        "quadruped animal",
+        "covered in wool, which can be various shades of white, grey, or brown",
+        "distinctive facial features, including curved horns (in some breeds), a hooked nose, and a mouth with lips",
+        "ears are typically small and rounded, with an oval or triangular shape",
+        "legs are usually short and sturdy",
+        "rump or flank may have a distinct patch of black or dark wool, depending on the breed."
+    ],
+    "sofa": [
+        "large, upholstered seat and backrest",
+        "one or more cushions or pillows",
+        "horizontal design with a backrest that is higher than the arms (if present)",
+        "no wheels or casters",
+        "usually has legs or a base for support",
+        "may have armrests",
+        "sometimes has a distinctive pattern or color"
+    ],
+    "train": [
+        "long and narrow",
+        "multiple connected carriages or wagons",
+        "often connected by a coupler",
+        "steam or diesel engine (for older trains), or electric (for modern trains)",
+        "tracks extending from the train",
+        "people or cargo inside some carriages",
+        "smokestack (for older trains)",
+        "various markings and logos on the exterior."
+    ],
+    "tvmonitor": [
+        "electronic device",
+        "thin, flat screen",
+        "lacks a stand or mount for support",
+        "no speakers present (external speakers may be connected)",
+        "a thick bezel around the screen",
+        "input ports for connecting to other devices may be present, but they are usually not as prominent as on a full television",
+        "no power cord is visible, as monitors are typically connected to other power sources, such as a computer or power strip, using a separate AC adapter."
+    ]
+}
