@@ -221,6 +221,6 @@ class CATSeg(nn.Module):
         height = batched_inputs[0].get("height", out_res[0])
         width = batched_inputs[0].get("width", out_res[1])
         output = sem_seg_postprocess(outputs[0], out_res, height, width)
-        output = output.view(output.shape[0]//5, 5, output.shape[1], output.shape[2])
-        output = output.mean(dim=1)
+        # output = output.view(output.shape[0]//5, 5, output.shape[1], output.shape[2])
+        # output = output.mean(dim=1)
         return [{'sem_seg': output}]
