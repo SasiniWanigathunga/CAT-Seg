@@ -4,6 +4,7 @@
 # Modified by Heeseong Shin from: https://github.com/dingjiansw101/ZegFormer/blob/main/mask_former/mask_former_model.py
 import fvcore.nn.weight_init as weight_init
 import torch
+import os
 
 from torch import nn
 from torch.nn import functional as F
@@ -53,11 +54,22 @@ class CATSegPredictor(nn.Module):
         # use class_texts in train_forward, and test_class_texts in test_forward
         with open(train_class_json, 'r') as f_in:
             self.class_texts = json.load(f_in)
+
+        # # catseg
         # with open(test_class_json, 'r') as f_in:
         #     self.test_class_texts = json.load(f_in)
+        # catseg with attribute embeddings
+        # with open(test_class_json, 'r') as f_in:
+        #     data = json.load(f_in)
+        #     self.test_class_texts = [[f"There is a {key} in the photo featuring {attribute}" for attribute in attributes] for key, attributes in data.items()]
+        # catseg with attribute scores
         with open(test_class_json, 'r') as f_in:
             data = json.load(f_in)
-            self.test_class_texts = [[f"There is a {key} in the photo featuring {attribute}" for attribute in attributes] for key, attributes in data.items()]
+            attributes_only_list = []
+            for key, attributes in data.items():
+                attributes_only_list.extend([f"There is a {key} in the photo featuring {attribute}" for attribute in attributes])
+            self.test_class_texts = attributes_only_list
+
         assert self.class_texts != None
         if self.test_class_texts == None:
             self.test_class_texts = self.class_texts
@@ -204,114 +216,114 @@ class CATSegPredictor(nn.Module):
         zeroshot_weights = torch.stack(zeroshot_weights, dim=1).cuda()
         return zeroshot_weights
     
-    def get_text_embeds(self, classnames, templates, clip_model, prompt=None):
-        # if self.cache is not None and not self.training:
-        #     return self.cache
-        with open('textembeddings1.txt', 'w') as f:
-            print("self.tokens: ", self.tokens, file=f)
-            print("prompt: ", prompt, file=f)
-        if self.tokens is None or prompt is not None:
-            final_tokens = []
-            for _class in classnames:
-                with open('textembeddings1.txt', 'a') as f:
-                    print("descriptors: ", _class, file=f)
-                tokens = []
-                for classname in _class:
-                    with open('textembeddings1.txt', 'a') as f:
-                        print("classname: ", classname, file=f)
-                    if ', ' in classname:
-                        # classname_splits = classname.split(', ')
-                        # texts = [template.format(classname) for template in templates]
-                        texts = classname
-                        with open('textembeddings1.txt', 'a') as f:
-                            print("textsif: ", texts, file=f)
-                    else:
-                        # texts = [template.format(classname) for template in templates]  # format with class
-                        texts =classname
-                        with open('textembeddings1.txt', 'a') as f:
-                            print("textelse: ", texts, file=f)
-                    with open('textembeddings1.txt', 'a') as f:
-                        print("texts1: ", texts, file=f)
-                    if self.tokenizer is not None:
-                        texts = self.tokenizer(texts).cuda()
-                    else: 
-                        texts = clip.tokenize(texts).cuda()
-                    with open('textembeddings1.txt', 'a') as f:
-                        print("texts2: ", texts.shape, file=f)
-                    tokens.append(texts)
-                tokens = torch.stack(tokens, dim=0).squeeze(1)
-                with open('textembeddings1.txt', 'a') as f:
-                    print("descriptors_tokens: ", tokens.shape, file=f)
+    # def get_text_embeds(self, classnames, templates, clip_model, prompt=None):
+    #     # if self.cache is not None and not self.training:
+    #     #     return self.cache
+    #     with open('textembeddings1.txt', 'w') as f:
+    #         print("self.tokens: ", self.tokens, file=f)
+    #         print("prompt: ", prompt, file=f)
+    #     if self.tokens is None or prompt is not None:
+    #         final_tokens = []
+    #         for _class in classnames:
+    #             with open('textembeddings1.txt', 'a') as f:
+    #                 print("descriptors: ", _class, file=f)
+    #             tokens = []
+    #             for classname in _class:
+    #                 with open('textembeddings1.txt', 'a') as f:
+    #                     print("classname: ", classname, file=f)
+    #                 if ', ' in classname:
+    #                     # classname_splits = classname.split(', ')
+    #                     # texts = [template.format(classname) for template in templates]
+    #                     texts = classname
+    #                     with open('textembeddings1.txt', 'a') as f:
+    #                         print("textsif: ", texts, file=f)
+    #                 else:
+    #                     # texts = [template.format(classname) for template in templates]  # format with class
+    #                     texts =classname
+    #                     with open('textembeddings1.txt', 'a') as f:
+    #                         print("textelse: ", texts, file=f)
+    #                 with open('textembeddings1.txt', 'a') as f:
+    #                     print("texts1: ", texts, file=f)
+    #                 if self.tokenizer is not None:
+    #                     texts = self.tokenizer(texts).cuda()
+    #                 else: 
+    #                     texts = clip.tokenize(texts).cuda()
+    #                 with open('textembeddings1.txt', 'a') as f:
+    #                     print("texts2: ", texts.shape, file=f)
+    #                 tokens.append(texts)
+    #             tokens = torch.stack(tokens, dim=0).squeeze(1)
+    #             with open('textembeddings1.txt', 'a') as f:
+    #                 print("descriptors_tokens: ", tokens.shape, file=f)
 
-                class_embeddings = clip_model.encode_text(tokens, prompt)
-                class_embeddings = class_embeddings / class_embeddings.norm(dim=-1, keepdim=True)
+    #             class_embeddings = clip_model.encode_text(tokens, prompt)
+    #             class_embeddings = class_embeddings / class_embeddings.norm(dim=-1, keepdim=True)
                 
     
-                class_embeddings = class_embeddings.unsqueeze(1)
+    #             class_embeddings = class_embeddings.unsqueeze(1)
                 
-                if not self.training:
-                    self.cache = class_embeddings
-                with open('textembeddings1.txt', 'a') as f:
-                    print("class_embeddings: ", class_embeddings.shape, file=f)
+    #             if not self.training:
+    #                 self.cache = class_embeddings
+    #             with open('textembeddings1.txt', 'a') as f:
+    #                 print("class_embeddings: ", class_embeddings.shape, file=f)
 
-                class_embeddings = class_embeddings.mean(dim=0)
+    #             class_embeddings = class_embeddings.mean(dim=0)
 
-                with open('textembeddings1.txt', 'a') as f:
-                    print("class_embeddingsmean: ", class_embeddings.shape, file=f)
+    #             with open('textembeddings1.txt', 'a') as f:
+    #                 print("class_embeddingsmean: ", class_embeddings.shape, file=f)
 
-                final_tokens.append(class_embeddings)
+    #             final_tokens.append(class_embeddings)
 
-            with open('textembeddings1.txt', 'a') as f:
-                print("final_tokens: ", len(final_tokens), file=f)
-            final_tokens = torch.stack(final_tokens, dim=0).cuda()
-            with open('textembeddings1.txt', 'a') as f:
-                print("final_tokens: ", final_tokens.shape, file=f)
+    #         with open('textembeddings1.txt', 'a') as f:
+    #             print("final_tokens: ", len(final_tokens), file=f)
+    #         final_tokens = torch.stack(final_tokens, dim=0).cuda()
+    #         with open('textembeddings1.txt', 'a') as f:
+    #             print("final_tokens: ", final_tokens.shape, file=f)
 
-            if prompt is None:
-                self.tokens = final_tokens
-
-        elif self.tokens is not None and prompt is None:
-            final_tokens = self.tokens
-        
-        return final_tokens
-
-    # def get_text_embeds(self, classnames, templates, clip_model, prompt=None):
-    #     if self.cache is not None and not self.training:
-    #         return self.cache
-        
-    #     if self.tokens is None or prompt is not None:
-    #         tokens = []
-    #         for classname in classnames:
-    #             if ', ' in classname:
-    #                 classname_splits = classname.split(', ')
-    #                 texts = [template.format(classname_splits[0]) for template in templates]
-    #             else:
-    #                 texts = [template.format(classname) for template in templates]  # format with class
-    #             if self.tokenizer is not None:
-    #                 texts = self.tokenizer(texts).cuda()
-    #             else: 
-    #                 texts = clip.tokenize(texts).cuda()
-    #             with open('embeddings.txt', 'w') as f:
-    #                 print("texts: ", texts.shape, file=f)
-    #             tokens.append(texts)
-    #         tokens = torch.stack(tokens, dim=0).squeeze(1)
-    #         with open('embeddings.txt', 'a') as f:
-    #             print("tokens: ", tokens.shape, file=f)
     #         if prompt is None:
-    #             self.tokens = tokens
+    #             self.tokens = final_tokens
+
     #     elif self.tokens is not None and prompt is None:
-    #         tokens = self.tokens
+    #         final_tokens = self.tokens
+        
+    #     return final_tokens
 
-    #     class_embeddings = clip_model.encode_text(tokens, prompt)
-    #     class_embeddings = class_embeddings / class_embeddings.norm(dim=-1, keepdim=True)
+    def get_text_embeds(self, classnames, templates, clip_model, prompt=None):
+        if self.cache is not None and not self.training:
+            return self.cache
         
-        
-    #     class_embeddings = class_embeddings.unsqueeze(1)
-        
-    #     if not self.training:
-    #         self.cache = class_embeddings
+        if self.tokens is None or prompt is not None:
+            tokens = []
+            for classname in classnames:
+                if ', ' in classname:
+                    classname_splits = classname.split(', ')
+                    texts = [template.format(classname_splits[0]) for template in templates]
+                else:
+                    texts = [template.format(classname) for template in templates]  # format with class
+                if self.tokenizer is not None:
+                    texts = self.tokenizer(texts).cuda()
+                else: 
+                    texts = clip.tokenize(texts).cuda()
+                with open('embeddings.txt', 'w') as f:
+                    print("texts: ", texts.shape, file=f)
+                tokens.append(texts)
+            tokens = torch.stack(tokens, dim=0).squeeze(1)
+            with open('embeddings.txt', 'a') as f:
+                print("tokens: ", tokens.shape, file=f)
+            if prompt is None:
+                self.tokens = tokens
+        elif self.tokens is not None and prompt is None:
+            tokens = self.tokens
 
-    #     with open('embeddings.txt', 'a') as f:
-    #         print("class_embeddings: ", class_embeddings.shape, file=f)
+        class_embeddings = clip_model.encode_text(tokens, prompt)
+        class_embeddings = class_embeddings / class_embeddings.norm(dim=-1, keepdim=True)
+        
+        
+        class_embeddings = class_embeddings.unsqueeze(1)
+        
+        if not self.training:
+            self.cache = class_embeddings
+
+        with open('embeddings.txt', 'a') as f:
+            print("class_embeddings: ", class_embeddings.shape, file=f)
             
-    #     return class_embeddings
+        return class_embeddings

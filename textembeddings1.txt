@@ -1,15 +1,484 @@
-self.tokens:  tensor([[[-0.0442, -0.0220,  0.0271,  ..., -0.0061, -0.0328,  0.0114]],
-
-        [[-0.0144, -0.0645, -0.0147,  ..., -0.0201, -0.0331,  0.0608]],
-
-        [[ 0.0044,  0.0379, -0.0255,  ..., -0.0214, -0.0111,  0.0157]],
-
-        ...,
-
-        [[-0.0272,  0.0017, -0.0188,  ...,  0.0022, -0.0321, -0.0206]],
-
-        [[-0.0084, -0.0017,  0.0173,  ..., -0.0010,  0.0014,  0.0132]],
-
-        [[ 0.0251,  0.0427, -0.0114,  ..., -0.0188, -0.0490,  0.0130]]],
-       device='cuda:0')
+self.tokens:  None
 prompt:  None
+descriptors:  ['There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings ', 'There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings, including any visible engine exhaust plumes. ', 'There is a aeroplane in the photo featuring Presence and configuration of distinctive exhaust plumes, considering their shape, size, number, and relative position to the aircraft. ', 'There is a aeroplane in the photo featuring Presence and Configuration of Distinctive  Nacelle-to-Wing Integration Designs   ', 'There is a aeroplane in the photo featuring Presence and configuration of distinctive landing gear, taking into account the number of wheels, their arrangement e.g., tricycle, tailwheel, and whether they are retractable or fixed. ']
+classname:  There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings 
+textelse:  There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings 
+texts1:  There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings 
+texts2:  torch.Size([1, 77])
+classname:  There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings, including any visible engine exhaust plumes. 
+textsif:  There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings, including any visible engine exhaust plumes. 
+texts1:  There is a aeroplane in the photo featuring Presence and configuration of distinctive engine nacelles and their relative position to the wings, including any visible engine exhaust plumes. 
+texts2:  torch.Size([1, 77])
+classname:  There is a aeroplane in the photo featuring Presence and configuration of distinctive exhaust plumes, considering their shape, size, number, and relative position to the aircraft. 
+textsif:  There is a aeroplane in the photo featuring Presence and configuration of distinctive exhaust plumes, considering their shape, size, number, and relative position to the aircraft. 
+texts1:  There is a aeroplane in the photo featuring Presence and configuration of distinctive exhaust plumes, considering their shape, size, number, and relative position to the aircraft. 
+texts2:  torch.Size([1, 77])
+classname:  There is a aeroplane in the photo featuring Presence and Configuration of Distinctive  Nacelle-to-Wing Integration Designs   
+textelse:  There is a aeroplane in the photo featuring Presence and Configuration of Distinctive  Nacelle-to-Wing Integration Designs   
+texts1:  There is a aeroplane in the photo featuring Presence and Configuration of Distinctive  Nacelle-to-Wing Integration Designs   
+texts2:  torch.Size([1, 77])
+classname:  There is a aeroplane in the photo featuring Presence and configuration of distinctive landing gear, taking into account the number of wheels, their arrangement e.g., tricycle, tailwheel, and whether they are retractable or fixed. 
+textsif:  There is a aeroplane in the photo featuring Presence and configuration of distinctive landing gear, taking into account the number of wheels, their arrangement e.g., tricycle, tailwheel, and whether they are retractable or fixed. 
+texts1:  There is a aeroplane in the photo featuring Presence and configuration of distinctive landing gear, taking into account the number of wheels, their arrangement e.g., tricycle, tailwheel, and whether they are retractable or fixed. 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a bicycle in the photo featuring Has a single chain ring on the crankset ', 'There is a bicycle in the photo featuring Presence of a chain connecting a crankset to a rear wheel through a gear system.     ', 'There is a bicycle in the photo featuring Has a combination of handlebars, two spoked wheels, a seat, and a chain connected to the pedals.  ', 'There is a bicycle in the photo featuring Has a curved top tube extending from the frame, meeting a lower curved seat tube', 'There is a bicycle in the photo featuring Has a combination of two spoked wheels connected to a frame, with a curved top tube extending upward from a lower, curved seat tube.  ']
+classname:  There is a bicycle in the photo featuring Has a single chain ring on the crankset 
+textelse:  There is a bicycle in the photo featuring Has a single chain ring on the crankset 
+texts1:  There is a bicycle in the photo featuring Has a single chain ring on the crankset 
+texts2:  torch.Size([1, 77])
+classname:  There is a bicycle in the photo featuring Presence of a chain connecting a crankset to a rear wheel through a gear system.     
+textelse:  There is a bicycle in the photo featuring Presence of a chain connecting a crankset to a rear wheel through a gear system.     
+texts1:  There is a bicycle in the photo featuring Presence of a chain connecting a crankset to a rear wheel through a gear system.     
+texts2:  torch.Size([1, 77])
+classname:  There is a bicycle in the photo featuring Has a combination of handlebars, two spoked wheels, a seat, and a chain connected to the pedals.  
+textsif:  There is a bicycle in the photo featuring Has a combination of handlebars, two spoked wheels, a seat, and a chain connected to the pedals.  
+texts1:  There is a bicycle in the photo featuring Has a combination of handlebars, two spoked wheels, a seat, and a chain connected to the pedals.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bicycle in the photo featuring Has a curved top tube extending from the frame, meeting a lower curved seat tube
+textsif:  There is a bicycle in the photo featuring Has a curved top tube extending from the frame, meeting a lower curved seat tube
+texts1:  There is a bicycle in the photo featuring Has a curved top tube extending from the frame, meeting a lower curved seat tube
+texts2:  torch.Size([1, 77])
+classname:  There is a bicycle in the photo featuring Has a combination of two spoked wheels connected to a frame, with a curved top tube extending upward from a lower, curved seat tube.  
+textsif:  There is a bicycle in the photo featuring Has a combination of two spoked wheels connected to a frame, with a curved top tube extending upward from a lower, curved seat tube.  
+texts1:  There is a bicycle in the photo featuring Has a combination of two spoked wheels connected to a frame, with a curved top tube extending upward from a lower, curved seat tube.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a bird in the photo featuring Presence of a visible forecastle ', 'There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings and tail, and the presence or absence of prominent neck features.  ', 'There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings, tail, and head, and the presence or absence of prominent neck features.   ', 'There is a bird in the photo featuring Combination of beak morphology, wing loading, and presence of unique color patterns on the plumage, considering their relative size, distribution, and contrast to the overall body coloration. ', 'There is a bird in the photo featuring Combination of beak morphology, wing shape complexity, tail feather arrangement, and plumage pattern complexity relative to body size.   ']
+classname:  There is a bird in the photo featuring Presence of a visible forecastle 
+textelse:  There is a bird in the photo featuring Presence of a visible forecastle 
+texts1:  There is a bird in the photo featuring Presence of a visible forecastle 
+texts2:  torch.Size([1, 77])
+classname:  There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings and tail, and the presence or absence of prominent neck features.  
+textsif:  There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings and tail, and the presence or absence of prominent neck features.  
+texts1:  There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings and tail, and the presence or absence of prominent neck features.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings, tail, and head, and the presence or absence of prominent neck features.   
+textsif:  There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings, tail, and head, and the presence or absence of prominent neck features.   
+texts1:  There is a bird in the photo featuring Combination of beak morphology, wing posture, and tail feather arrangement relative to body size, considering the presence of unique color patterns or markings on the wings, tail, and head, and the presence or absence of prominent neck features.   
+texts2:  torch.Size([1, 77])
+classname:  There is a bird in the photo featuring Combination of beak morphology, wing loading, and presence of unique color patterns on the plumage, considering their relative size, distribution, and contrast to the overall body coloration. 
+textsif:  There is a bird in the photo featuring Combination of beak morphology, wing loading, and presence of unique color patterns on the plumage, considering their relative size, distribution, and contrast to the overall body coloration. 
+texts1:  There is a bird in the photo featuring Combination of beak morphology, wing loading, and presence of unique color patterns on the plumage, considering their relative size, distribution, and contrast to the overall body coloration. 
+texts2:  torch.Size([1, 77])
+classname:  There is a bird in the photo featuring Combination of beak morphology, wing shape complexity, tail feather arrangement, and plumage pattern complexity relative to body size.   
+textsif:  There is a bird in the photo featuring Combination of beak morphology, wing shape complexity, tail feather arrangement, and plumage pattern complexity relative to body size.   
+texts1:  There is a bird in the photo featuring Combination of beak morphology, wing shape complexity, tail feather arrangement, and plumage pattern complexity relative to body size.   
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a boat in the photo featuring Mast  ', 'There is a boat in the photo featuring Presence of a  rudder ', 'There is a boat in the photo featuring Presence of distinctive lifelines or guardrails running along the deck edge ', 'There is a boat in the photo featuring Presence of distinct hull shape contrasting with the surrounding natural or man-made environment. ', 'There is a boat in the photo featuring Presence of distinct appendages or attachments extending from the hull, such as rudders, propellers, or outriggers.  ']
+classname:  There is a boat in the photo featuring Mast  
+textelse:  There is a boat in the photo featuring Mast  
+texts1:  There is a boat in the photo featuring Mast  
+texts2:  torch.Size([1, 77])
+classname:  There is a boat in the photo featuring Presence of a  rudder 
+textelse:  There is a boat in the photo featuring Presence of a  rudder 
+texts1:  There is a boat in the photo featuring Presence of a  rudder 
+texts2:  torch.Size([1, 77])
+classname:  There is a boat in the photo featuring Presence of distinctive lifelines or guardrails running along the deck edge 
+textelse:  There is a boat in the photo featuring Presence of distinctive lifelines or guardrails running along the deck edge 
+texts1:  There is a boat in the photo featuring Presence of distinctive lifelines or guardrails running along the deck edge 
+texts2:  torch.Size([1, 77])
+classname:  There is a boat in the photo featuring Presence of distinct hull shape contrasting with the surrounding natural or man-made environment. 
+textelse:  There is a boat in the photo featuring Presence of distinct hull shape contrasting with the surrounding natural or man-made environment. 
+texts1:  There is a boat in the photo featuring Presence of distinct hull shape contrasting with the surrounding natural or man-made environment. 
+texts2:  torch.Size([1, 77])
+classname:  There is a boat in the photo featuring Presence of distinct appendages or attachments extending from the hull, such as rudders, propellers, or outriggers.  
+textsif:  There is a boat in the photo featuring Presence of distinct appendages or attachments extending from the hull, such as rudders, propellers, or outriggers.  
+texts1:  There is a boat in the photo featuring Presence of distinct appendages or attachments extending from the hull, such as rudders, propellers, or outriggers.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a bottle in the photo featuring Having a noticeable lip with a downward curl.  ', 'There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a noticeable shoulder, a constricted neck gracefully transitioning into a wider, rounded body culminating in a defined lip with a slight outward curve, often featuring a textured surface pattern and a discernible base shape.  ', 'There is a bottle in the photo featuring Clear and Descriptive The language is precise and easily understood, leaving little room for misinterpretation.', 'There is a bottle in the photo featuring Having a distinct, constricted neck transitioning smoothly into a wider, rounded body with a defined lip and a slight outward curve. ', 'There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a constricted neck that gradually widens into a rounded body, culminating in a defined lip or rim at the widest point and featuring a translucent material with visible internal structure.  ']
+classname:  There is a bottle in the photo featuring Having a noticeable lip with a downward curl.  
+textelse:  There is a bottle in the photo featuring Having a noticeable lip with a downward curl.  
+texts1:  There is a bottle in the photo featuring Having a noticeable lip with a downward curl.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a noticeable shoulder, a constricted neck gracefully transitioning into a wider, rounded body culminating in a defined lip with a slight outward curve, often featuring a textured surface pattern and a discernible base shape.  
+textsif:  There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a noticeable shoulder, a constricted neck gracefully transitioning into a wider, rounded body culminating in a defined lip with a slight outward curve, often featuring a textured surface pattern and a discernible base shape.  
+texts1:  There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a noticeable shoulder, a constricted neck gracefully transitioning into a wider, rounded body culminating in a defined lip with a slight outward curve, often featuring a textured surface pattern and a discernible base shape.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bottle in the photo featuring Clear and Descriptive The language is precise and easily understood, leaving little room for misinterpretation.
+textsif:  There is a bottle in the photo featuring Clear and Descriptive The language is precise and easily understood, leaving little room for misinterpretation.
+texts1:  There is a bottle in the photo featuring Clear and Descriptive The language is precise and easily understood, leaving little room for misinterpretation.
+texts2:  torch.Size([1, 77])
+classname:  There is a bottle in the photo featuring Having a distinct, constricted neck transitioning smoothly into a wider, rounded body with a defined lip and a slight outward curve. 
+textsif:  There is a bottle in the photo featuring Having a distinct, constricted neck transitioning smoothly into a wider, rounded body with a defined lip and a slight outward curve. 
+texts1:  There is a bottle in the photo featuring Having a distinct, constricted neck transitioning smoothly into a wider, rounded body with a defined lip and a slight outward curve. 
+texts2:  torch.Size([1, 77])
+classname:  There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a constricted neck that gradually widens into a rounded body, culminating in a defined lip or rim at the widest point and featuring a translucent material with visible internal structure.  
+textsif:  There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a constricted neck that gradually widens into a rounded body, culminating in a defined lip or rim at the widest point and featuring a translucent material with visible internal structure.  
+texts1:  There is a bottle in the photo featuring Possessing a distinct, vertically oriented form with a constricted neck that gradually widens into a rounded body, culminating in a defined lip or rim at the widest point and featuring a translucent material with visible internal structure.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ["There is a bus in the photo featuring posseses a distinctive high-visibility, often multicolored,  front signage panel displaying the bus's route number andor destination information above the driver compartment.  ", 'There is a bus in the photo featuring possesses a distinctive, front-mounted, high-visibility digital display panel showcasing its route information and destination, often integrated with illuminated signage for nighttime visibility.  ', 'There is a bus in the photo featuring possesses a distinctive, elongated silhouette punctuated by a raised front platform and large display panels for route information and destinations.  ', 'There is a bus in the photo featuring possesses a distinctive combination of a raised front platform designed for passenger entry and a long, streamlined passenger compartment.  ', 'There is a bus in the photo featuring possesses a distinctive, high-mounted destination display panel, often featuring multiple colored electronic panels or illuminated signage integrated with the roofline, clearly visible from a distance.  ']
+classname:  There is a bus in the photo featuring posseses a distinctive high-visibility, often multicolored,  front signage panel displaying the bus's route number andor destination information above the driver compartment.  
+textsif:  There is a bus in the photo featuring posseses a distinctive high-visibility, often multicolored,  front signage panel displaying the bus's route number andor destination information above the driver compartment.  
+texts1:  There is a bus in the photo featuring posseses a distinctive high-visibility, often multicolored,  front signage panel displaying the bus's route number andor destination information above the driver compartment.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bus in the photo featuring possesses a distinctive, front-mounted, high-visibility digital display panel showcasing its route information and destination, often integrated with illuminated signage for nighttime visibility.  
+textsif:  There is a bus in the photo featuring possesses a distinctive, front-mounted, high-visibility digital display panel showcasing its route information and destination, often integrated with illuminated signage for nighttime visibility.  
+texts1:  There is a bus in the photo featuring possesses a distinctive, front-mounted, high-visibility digital display panel showcasing its route information and destination, often integrated with illuminated signage for nighttime visibility.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bus in the photo featuring possesses a distinctive, elongated silhouette punctuated by a raised front platform and large display panels for route information and destinations.  
+textsif:  There is a bus in the photo featuring possesses a distinctive, elongated silhouette punctuated by a raised front platform and large display panels for route information and destinations.  
+texts1:  There is a bus in the photo featuring possesses a distinctive, elongated silhouette punctuated by a raised front platform and large display panels for route information and destinations.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bus in the photo featuring possesses a distinctive combination of a raised front platform designed for passenger entry and a long, streamlined passenger compartment.  
+textsif:  There is a bus in the photo featuring possesses a distinctive combination of a raised front platform designed for passenger entry and a long, streamlined passenger compartment.  
+texts1:  There is a bus in the photo featuring possesses a distinctive combination of a raised front platform designed for passenger entry and a long, streamlined passenger compartment.  
+texts2:  torch.Size([1, 77])
+classname:  There is a bus in the photo featuring possesses a distinctive, high-mounted destination display panel, often featuring multiple colored electronic panels or illuminated signage integrated with the roofline, clearly visible from a distance.  
+textsif:  There is a bus in the photo featuring possesses a distinctive, high-mounted destination display panel, often featuring multiple colored electronic panels or illuminated signage integrated with the roofline, clearly visible from a distance.  
+texts1:  There is a bus in the photo featuring possesses a distinctive, high-mounted destination display panel, often featuring multiple colored electronic panels or illuminated signage integrated with the roofline, clearly visible from a distance.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a car in the photo featuring Distinctive combination of  wheel arches,  door handle placement, and  rear window shape, considering the overall vehicle silhouette relative to similar vehicles.  ', 'There is a car in the photo featuring Distinctive combination of  headlight design, taillight arrangement, and overall vehicle silhouette, considering the curvature of the roofline,presence or absence of a prominent trunk, and the relation between wheel arches and overall vehicle width. ', 'There is a car in the photo featuring Distinctive combination of  wheel arches, taillight configuration, and overall vehicle width relative to similar vehicles in the same class.   ', "There is a car in the photo featuring Distinctive combination of headlight shape, taillight arrangement, and overall vehicle profile, considering the curvature of the roofline, presence or absence of a prominent trunk, and wheel arch shape relative to the vehicle's overall width and height.  ", "There is a car in the photo featuring Distinct combination of  lighting signature headlights, taillights, wheel size, and body line angles in relation to the vehicle's overall height. "]
+classname:  There is a car in the photo featuring Distinctive combination of  wheel arches,  door handle placement, and  rear window shape, considering the overall vehicle silhouette relative to similar vehicles.  
+textsif:  There is a car in the photo featuring Distinctive combination of  wheel arches,  door handle placement, and  rear window shape, considering the overall vehicle silhouette relative to similar vehicles.  
+texts1:  There is a car in the photo featuring Distinctive combination of  wheel arches,  door handle placement, and  rear window shape, considering the overall vehicle silhouette relative to similar vehicles.  
+texts2:  torch.Size([1, 77])
+classname:  There is a car in the photo featuring Distinctive combination of  headlight design, taillight arrangement, and overall vehicle silhouette, considering the curvature of the roofline,presence or absence of a prominent trunk, and the relation between wheel arches and overall vehicle width. 
+textsif:  There is a car in the photo featuring Distinctive combination of  headlight design, taillight arrangement, and overall vehicle silhouette, considering the curvature of the roofline,presence or absence of a prominent trunk, and the relation between wheel arches and overall vehicle width. 
+texts1:  There is a car in the photo featuring Distinctive combination of  headlight design, taillight arrangement, and overall vehicle silhouette, considering the curvature of the roofline,presence or absence of a prominent trunk, and the relation between wheel arches and overall vehicle width. 
+texts2:  torch.Size([1, 77])
+classname:  There is a car in the photo featuring Distinctive combination of  wheel arches, taillight configuration, and overall vehicle width relative to similar vehicles in the same class.   
+textsif:  There is a car in the photo featuring Distinctive combination of  wheel arches, taillight configuration, and overall vehicle width relative to similar vehicles in the same class.   
+texts1:  There is a car in the photo featuring Distinctive combination of  wheel arches, taillight configuration, and overall vehicle width relative to similar vehicles in the same class.   
+texts2:  torch.Size([1, 77])
+classname:  There is a car in the photo featuring Distinctive combination of headlight shape, taillight arrangement, and overall vehicle profile, considering the curvature of the roofline, presence or absence of a prominent trunk, and wheel arch shape relative to the vehicle's overall width and height.  
+textsif:  There is a car in the photo featuring Distinctive combination of headlight shape, taillight arrangement, and overall vehicle profile, considering the curvature of the roofline, presence or absence of a prominent trunk, and wheel arch shape relative to the vehicle's overall width and height.  
+texts1:  There is a car in the photo featuring Distinctive combination of headlight shape, taillight arrangement, and overall vehicle profile, considering the curvature of the roofline, presence or absence of a prominent trunk, and wheel arch shape relative to the vehicle's overall width and height.  
+texts2:  torch.Size([1, 77])
+classname:  There is a car in the photo featuring Distinct combination of  lighting signature headlights, taillights, wheel size, and body line angles in relation to the vehicle's overall height. 
+textsif:  There is a car in the photo featuring Distinct combination of  lighting signature headlights, taillights, wheel size, and body line angles in relation to the vehicle's overall height. 
+texts1:  There is a car in the photo featuring Distinct combination of  lighting signature headlights, taillights, wheel size, and body line angles in relation to the vehicle's overall height. 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ["There is a cat in the photo featuring Presence of a  distinctive combination of expressive facial features forward-facing eyes, a slightly downturned mouth, and prominent cheekbones relative to the overall head shape, indicative of a wild feline's predatory anatomy. ", 'There is a cat in the photo featuring Presence of a combination of forward-facing eyes, triangular ear shape, and a distinct, horizontally striped or spotted pattern. ', 'There is a cat in the photo featuring Presence of pointed ears, elongated muzzle, and vertically oriented pupils relative to typical domestic cat features. ', 'There is a cat in the photo featuring Presence of pointed ears relative to overall head shape ', 'There is a cat in the photo featuring Presence of distinctive anatomical structures unique to the species ']
+classname:  There is a cat in the photo featuring Presence of a  distinctive combination of expressive facial features forward-facing eyes, a slightly downturned mouth, and prominent cheekbones relative to the overall head shape, indicative of a wild feline's predatory anatomy. 
+textsif:  There is a cat in the photo featuring Presence of a  distinctive combination of expressive facial features forward-facing eyes, a slightly downturned mouth, and prominent cheekbones relative to the overall head shape, indicative of a wild feline's predatory anatomy. 
+texts1:  There is a cat in the photo featuring Presence of a  distinctive combination of expressive facial features forward-facing eyes, a slightly downturned mouth, and prominent cheekbones relative to the overall head shape, indicative of a wild feline's predatory anatomy. 
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Presence of a combination of forward-facing eyes, triangular ear shape, and a distinct, horizontally striped or spotted pattern. 
+textsif:  There is a cat in the photo featuring Presence of a combination of forward-facing eyes, triangular ear shape, and a distinct, horizontally striped or spotted pattern. 
+texts1:  There is a cat in the photo featuring Presence of a combination of forward-facing eyes, triangular ear shape, and a distinct, horizontally striped or spotted pattern. 
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Presence of pointed ears, elongated muzzle, and vertically oriented pupils relative to typical domestic cat features. 
+textsif:  There is a cat in the photo featuring Presence of pointed ears, elongated muzzle, and vertically oriented pupils relative to typical domestic cat features. 
+texts1:  There is a cat in the photo featuring Presence of pointed ears, elongated muzzle, and vertically oriented pupils relative to typical domestic cat features. 
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Presence of pointed ears relative to overall head shape 
+textelse:  There is a cat in the photo featuring Presence of pointed ears relative to overall head shape 
+texts1:  There is a cat in the photo featuring Presence of pointed ears relative to overall head shape 
+texts2:  torch.Size([1, 77])
+classname:  There is a cat in the photo featuring Presence of distinctive anatomical structures unique to the species 
+textelse:  There is a cat in the photo featuring Presence of distinctive anatomical structures unique to the species 
+texts1:  There is a cat in the photo featuring Presence of distinctive anatomical structures unique to the species 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a chair in the photo featuring Presence of a sculpted seat with visible contours designed to cradle the human form, integrated into a structure with a distinct backrest. ', "There is a chair in the photo featuring Presence of a visually distinct, integrated form with a  cushioned seat and an articulated backrest designed to ergonomically support an individual's sitting posture. ", 'There is a chair in the photo featuring Presence of a distinct, upholstered triangular form  at the junction of the seat back and arms, often featuring decorative stitching. ', 'There is a chair in the photo featuring Presence of a distinct, raised platform with evenly spaced visible supports beneath, suggesting a structure built to accommodate seating. ', 'There is a chair in the photo featuring Presence of a distinct,  pillowed or upholstered seating surface  designed to comfortably accommodate human weight, integrated into a supporting structure.  ']
+classname:  There is a chair in the photo featuring Presence of a sculpted seat with visible contours designed to cradle the human form, integrated into a structure with a distinct backrest. 
+textsif:  There is a chair in the photo featuring Presence of a sculpted seat with visible contours designed to cradle the human form, integrated into a structure with a distinct backrest. 
+texts1:  There is a chair in the photo featuring Presence of a sculpted seat with visible contours designed to cradle the human form, integrated into a structure with a distinct backrest. 
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Presence of a visually distinct, integrated form with a  cushioned seat and an articulated backrest designed to ergonomically support an individual's sitting posture. 
+textsif:  There is a chair in the photo featuring Presence of a visually distinct, integrated form with a  cushioned seat and an articulated backrest designed to ergonomically support an individual's sitting posture. 
+texts1:  There is a chair in the photo featuring Presence of a visually distinct, integrated form with a  cushioned seat and an articulated backrest designed to ergonomically support an individual's sitting posture. 
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Presence of a distinct, upholstered triangular form  at the junction of the seat back and arms, often featuring decorative stitching. 
+textsif:  There is a chair in the photo featuring Presence of a distinct, upholstered triangular form  at the junction of the seat back and arms, often featuring decorative stitching. 
+texts1:  There is a chair in the photo featuring Presence of a distinct, upholstered triangular form  at the junction of the seat back and arms, often featuring decorative stitching. 
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Presence of a distinct, raised platform with evenly spaced visible supports beneath, suggesting a structure built to accommodate seating. 
+textsif:  There is a chair in the photo featuring Presence of a distinct, raised platform with evenly spaced visible supports beneath, suggesting a structure built to accommodate seating. 
+texts1:  There is a chair in the photo featuring Presence of a distinct, raised platform with evenly spaced visible supports beneath, suggesting a structure built to accommodate seating. 
+texts2:  torch.Size([1, 77])
+classname:  There is a chair in the photo featuring Presence of a distinct,  pillowed or upholstered seating surface  designed to comfortably accommodate human weight, integrated into a supporting structure.  
+textsif:  There is a chair in the photo featuring Presence of a distinct,  pillowed or upholstered seating surface  designed to comfortably accommodate human weight, integrated into a supporting structure.  
+texts1:  There is a chair in the photo featuring Presence of a distinct,  pillowed or upholstered seating surface  designed to comfortably accommodate human weight, integrated into a supporting structure.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a cow in the photo featuring Presence of a distinctive combination of a bell-shaped rumen, cloven hooves, and facial features characteristic of a bovine muzzle broad, flat, with prominent dewlap and vertically oriented nostrils ', 'There is a cow in the photo featuring Presence of a distinct  combination of a bell-shaped rumen, a prominent udder with multiple teats, and cloven hooves, aligned along a midline axis. ', 'There is a cow in the photo featuring Presence of four cloven hooves, a udder with multiple teats, and a distinct bell-shaped rumen coupled with a muzzle adapted for grazing. ', 'There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system visually evident as a prominent, bell-shaped rumen bulge  coupled with cloven hooves and  muzzle features typical of grazing ruminants.   ', 'There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system, with well-defined rumen, reticulum, omasum, and abomasum visible externally. ']
+classname:  There is a cow in the photo featuring Presence of a distinctive combination of a bell-shaped rumen, cloven hooves, and facial features characteristic of a bovine muzzle broad, flat, with prominent dewlap and vertically oriented nostrils 
+textsif:  There is a cow in the photo featuring Presence of a distinctive combination of a bell-shaped rumen, cloven hooves, and facial features characteristic of a bovine muzzle broad, flat, with prominent dewlap and vertically oriented nostrils 
+texts1:  There is a cow in the photo featuring Presence of a distinctive combination of a bell-shaped rumen, cloven hooves, and facial features characteristic of a bovine muzzle broad, flat, with prominent dewlap and vertically oriented nostrils 
+texts2:  torch.Size([1, 77])
+classname:  There is a cow in the photo featuring Presence of a distinct  combination of a bell-shaped rumen, a prominent udder with multiple teats, and cloven hooves, aligned along a midline axis. 
+textsif:  There is a cow in the photo featuring Presence of a distinct  combination of a bell-shaped rumen, a prominent udder with multiple teats, and cloven hooves, aligned along a midline axis. 
+texts1:  There is a cow in the photo featuring Presence of a distinct  combination of a bell-shaped rumen, a prominent udder with multiple teats, and cloven hooves, aligned along a midline axis. 
+texts2:  torch.Size([1, 77])
+classname:  There is a cow in the photo featuring Presence of four cloven hooves, a udder with multiple teats, and a distinct bell-shaped rumen coupled with a muzzle adapted for grazing. 
+textsif:  There is a cow in the photo featuring Presence of four cloven hooves, a udder with multiple teats, and a distinct bell-shaped rumen coupled with a muzzle adapted for grazing. 
+texts1:  There is a cow in the photo featuring Presence of four cloven hooves, a udder with multiple teats, and a distinct bell-shaped rumen coupled with a muzzle adapted for grazing. 
+texts2:  torch.Size([1, 77])
+classname:  There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system visually evident as a prominent, bell-shaped rumen bulge  coupled with cloven hooves and  muzzle features typical of grazing ruminants.   
+textsif:  There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system visually evident as a prominent, bell-shaped rumen bulge  coupled with cloven hooves and  muzzle features typical of grazing ruminants.   
+texts1:  There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system visually evident as a prominent, bell-shaped rumen bulge  coupled with cloven hooves and  muzzle features typical of grazing ruminants.   
+texts2:  torch.Size([1, 77])
+classname:  There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system, with well-defined rumen, reticulum, omasum, and abomasum visible externally. 
+textsif:  There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system, with well-defined rumen, reticulum, omasum, and abomasum visible externally. 
+texts1:  There is a cow in the photo featuring Presence of  a distinct, four-chambered ruminant digestive system, with well-defined rumen, reticulum, omasum, and abomasum visible externally. 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a diningtable in the photo featuring Has a shape suggestive of a traditional dining furniture piece, with a defined space for seating and a surface suitable for meals.  ', 'There is a diningtable in the photo featuring Has a gently sloping tabletop surface that widens towards the ends, designed to accommodate multiple place settings and subtly  guide the flow of conversation. ', 'There is a diningtable in the photo featuring Presence of multiple evenly spaced chair placement indentations or grooves on the surface, suggesting a designated area for each diner. ', 'There is a diningtable in the photo featuring Has a surface with designated spaces or sections for multiple place settings, such as individual sections for plates, glasses, and cutlery.  ', 'There is a diningtable in the photo featuring Presence of evenly spaced, defined areas or sections on the surface, suggesting designated spaces for individual place settings.  ']
+classname:  There is a diningtable in the photo featuring Has a shape suggestive of a traditional dining furniture piece, with a defined space for seating and a surface suitable for meals.  
+textsif:  There is a diningtable in the photo featuring Has a shape suggestive of a traditional dining furniture piece, with a defined space for seating and a surface suitable for meals.  
+texts1:  There is a diningtable in the photo featuring Has a shape suggestive of a traditional dining furniture piece, with a defined space for seating and a surface suitable for meals.  
+texts2:  torch.Size([1, 77])
+classname:  There is a diningtable in the photo featuring Has a gently sloping tabletop surface that widens towards the ends, designed to accommodate multiple place settings and subtly  guide the flow of conversation. 
+textsif:  There is a diningtable in the photo featuring Has a gently sloping tabletop surface that widens towards the ends, designed to accommodate multiple place settings and subtly  guide the flow of conversation. 
+texts1:  There is a diningtable in the photo featuring Has a gently sloping tabletop surface that widens towards the ends, designed to accommodate multiple place settings and subtly  guide the flow of conversation. 
+texts2:  torch.Size([1, 77])
+classname:  There is a diningtable in the photo featuring Presence of multiple evenly spaced chair placement indentations or grooves on the surface, suggesting a designated area for each diner. 
+textsif:  There is a diningtable in the photo featuring Presence of multiple evenly spaced chair placement indentations or grooves on the surface, suggesting a designated area for each diner. 
+texts1:  There is a diningtable in the photo featuring Presence of multiple evenly spaced chair placement indentations or grooves on the surface, suggesting a designated area for each diner. 
+texts2:  torch.Size([1, 77])
+classname:  There is a diningtable in the photo featuring Has a surface with designated spaces or sections for multiple place settings, such as individual sections for plates, glasses, and cutlery.  
+textsif:  There is a diningtable in the photo featuring Has a surface with designated spaces or sections for multiple place settings, such as individual sections for plates, glasses, and cutlery.  
+texts1:  There is a diningtable in the photo featuring Has a surface with designated spaces or sections for multiple place settings, such as individual sections for plates, glasses, and cutlery.  
+texts2:  torch.Size([1, 77])
+classname:  There is a diningtable in the photo featuring Presence of evenly spaced, defined areas or sections on the surface, suggesting designated spaces for individual place settings.  
+textsif:  There is a diningtable in the photo featuring Presence of evenly spaced, defined areas or sections on the surface, suggesting designated spaces for individual place settings.  
+texts1:  There is a diningtable in the photo featuring Presence of evenly spaced, defined areas or sections on the surface, suggesting designated spaces for individual place settings.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a dog in the photo featuring Presence of a canine snout with a distinct triangular shape ', 'There is a dog in the photo featuring Presence of a combination of  droopy eyes, a relaxed mouth, and a wagging tongue, conveying a state of contentment and playful engagement. ', 'There is a dog in the photo featuring Presence of a combination of a pointed muzzle with a defined stop point,  dark, almond-shaped eyes, and a  prominent  wet nose ', 'There is a dog in the photo featuring Presence of  a combination of a wagging tail, panting, and a soft, expressive gaze. ', 'There is a dog in the photo featuring Presence of proportionally large, expressive eyes with a defined slit pupil shape, positioned in forward-facing gaze suggestive of keen observation. ']
+classname:  There is a dog in the photo featuring Presence of a canine snout with a distinct triangular shape 
+textelse:  There is a dog in the photo featuring Presence of a canine snout with a distinct triangular shape 
+texts1:  There is a dog in the photo featuring Presence of a canine snout with a distinct triangular shape 
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Presence of a combination of  droopy eyes, a relaxed mouth, and a wagging tongue, conveying a state of contentment and playful engagement. 
+textsif:  There is a dog in the photo featuring Presence of a combination of  droopy eyes, a relaxed mouth, and a wagging tongue, conveying a state of contentment and playful engagement. 
+texts1:  There is a dog in the photo featuring Presence of a combination of  droopy eyes, a relaxed mouth, and a wagging tongue, conveying a state of contentment and playful engagement. 
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Presence of a combination of a pointed muzzle with a defined stop point,  dark, almond-shaped eyes, and a  prominent  wet nose 
+textsif:  There is a dog in the photo featuring Presence of a combination of a pointed muzzle with a defined stop point,  dark, almond-shaped eyes, and a  prominent  wet nose 
+texts1:  There is a dog in the photo featuring Presence of a combination of a pointed muzzle with a defined stop point,  dark, almond-shaped eyes, and a  prominent  wet nose 
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Presence of  a combination of a wagging tail, panting, and a soft, expressive gaze. 
+textsif:  There is a dog in the photo featuring Presence of  a combination of a wagging tail, panting, and a soft, expressive gaze. 
+texts1:  There is a dog in the photo featuring Presence of  a combination of a wagging tail, panting, and a soft, expressive gaze. 
+texts2:  torch.Size([1, 77])
+classname:  There is a dog in the photo featuring Presence of proportionally large, expressive eyes with a defined slit pupil shape, positioned in forward-facing gaze suggestive of keen observation. 
+textsif:  There is a dog in the photo featuring Presence of proportionally large, expressive eyes with a defined slit pupil shape, positioned in forward-facing gaze suggestive of keen observation. 
+texts1:  There is a dog in the photo featuring Presence of proportionally large, expressive eyes with a defined slit pupil shape, positioned in forward-facing gaze suggestive of keen observation. 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a horse in the photo featuring Presence of a  distinct pastern - the lower segment of the leg, located between the fetlock joint and the hoof, with a distinct angular bend and a bony prominence, suggesting the unique anatomy of a horse walking.  ', 'There is a horse in the photo featuring Presence of a defined flight or knee bone structure, prominent and distal to the fetlock joint and directly above the pastern.  ', 'There is a horse in the photo featuring Presence of a distinct  dorsal crest  - a prominent rise along the back muscles, especially noticeable when the horse is in motion or reared.  ', "There is a horse in the photo featuring Presence of a distinct barrel region, a rounded and muscular area expanding the horse's ribcage from its chest to the girth. ", 'There is a horse in the photo featuring Presence of a flowing, ridged mane and tail with a distinct hair direction and texture pattern unlike other animal species.  ']
+classname:  There is a horse in the photo featuring Presence of a  distinct pastern - the lower segment of the leg, located between the fetlock joint and the hoof, with a distinct angular bend and a bony prominence, suggesting the unique anatomy of a horse walking.  
+textsif:  There is a horse in the photo featuring Presence of a  distinct pastern - the lower segment of the leg, located between the fetlock joint and the hoof, with a distinct angular bend and a bony prominence, suggesting the unique anatomy of a horse walking.  
+texts1:  There is a horse in the photo featuring Presence of a  distinct pastern - the lower segment of the leg, located between the fetlock joint and the hoof, with a distinct angular bend and a bony prominence, suggesting the unique anatomy of a horse walking.  
+texts2:  torch.Size([1, 77])
+classname:  There is a horse in the photo featuring Presence of a defined flight or knee bone structure, prominent and distal to the fetlock joint and directly above the pastern.  
+textsif:  There is a horse in the photo featuring Presence of a defined flight or knee bone structure, prominent and distal to the fetlock joint and directly above the pastern.  
+texts1:  There is a horse in the photo featuring Presence of a defined flight or knee bone structure, prominent and distal to the fetlock joint and directly above the pastern.  
+texts2:  torch.Size([1, 77])
+classname:  There is a horse in the photo featuring Presence of a distinct  dorsal crest  - a prominent rise along the back muscles, especially noticeable when the horse is in motion or reared.  
+textsif:  There is a horse in the photo featuring Presence of a distinct  dorsal crest  - a prominent rise along the back muscles, especially noticeable when the horse is in motion or reared.  
+texts1:  There is a horse in the photo featuring Presence of a distinct  dorsal crest  - a prominent rise along the back muscles, especially noticeable when the horse is in motion or reared.  
+texts2:  torch.Size([1, 77])
+classname:  There is a horse in the photo featuring Presence of a distinct barrel region, a rounded and muscular area expanding the horse's ribcage from its chest to the girth. 
+textsif:  There is a horse in the photo featuring Presence of a distinct barrel region, a rounded and muscular area expanding the horse's ribcage from its chest to the girth. 
+texts1:  There is a horse in the photo featuring Presence of a distinct barrel region, a rounded and muscular area expanding the horse's ribcage from its chest to the girth. 
+texts2:  torch.Size([1, 77])
+classname:  There is a horse in the photo featuring Presence of a flowing, ridged mane and tail with a distinct hair direction and texture pattern unlike other animal species.  
+textsif:  There is a horse in the photo featuring Presence of a flowing, ridged mane and tail with a distinct hair direction and texture pattern unlike other animal species.  
+texts1:  There is a horse in the photo featuring Presence of a flowing, ridged mane and tail with a distinct hair direction and texture pattern unlike other animal species.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a motorbike in the photo featuring Presence of a compact, streamlined body design with minimal, aerodynamic covers, characteristic of a high-performance sportbike. ', "There is a motorbike in the photo featuring Presence of a distinctive, upswept exhaust system integrated into the motorcycle's frame with a single, large, round or oval muffler. ", 'There is a motorbike in the photo featuring Presence of a distinct motorcycle-style instrument cluster integrated into the handlebars, characterized by a central speedometer flanked by smaller ancillary gauges such as fuel level indicators, tachometers, and warning lights.   ', 'There is a motorbike in the photo featuring Presence of a distinctively shaped motorcycle-style swingarm with exposed linkage connecting the rear wheel axle to the frame.  ', 'There is a motorbike in the photo featuring Presence of a distinctly contoured, sculpted fuel tank with exposed curves and contours, often positioned above the engine and visually integrating with the frame structure. ']
+classname:  There is a motorbike in the photo featuring Presence of a compact, streamlined body design with minimal, aerodynamic covers, characteristic of a high-performance sportbike. 
+textsif:  There is a motorbike in the photo featuring Presence of a compact, streamlined body design with minimal, aerodynamic covers, characteristic of a high-performance sportbike. 
+texts1:  There is a motorbike in the photo featuring Presence of a compact, streamlined body design with minimal, aerodynamic covers, characteristic of a high-performance sportbike. 
+texts2:  torch.Size([1, 77])
+classname:  There is a motorbike in the photo featuring Presence of a distinctive, upswept exhaust system integrated into the motorcycle's frame with a single, large, round or oval muffler. 
+textsif:  There is a motorbike in the photo featuring Presence of a distinctive, upswept exhaust system integrated into the motorcycle's frame with a single, large, round or oval muffler. 
+texts1:  There is a motorbike in the photo featuring Presence of a distinctive, upswept exhaust system integrated into the motorcycle's frame with a single, large, round or oval muffler. 
+texts2:  torch.Size([1, 77])
+classname:  There is a motorbike in the photo featuring Presence of a distinct motorcycle-style instrument cluster integrated into the handlebars, characterized by a central speedometer flanked by smaller ancillary gauges such as fuel level indicators, tachometers, and warning lights.   
+textsif:  There is a motorbike in the photo featuring Presence of a distinct motorcycle-style instrument cluster integrated into the handlebars, characterized by a central speedometer flanked by smaller ancillary gauges such as fuel level indicators, tachometers, and warning lights.   
+texts1:  There is a motorbike in the photo featuring Presence of a distinct motorcycle-style instrument cluster integrated into the handlebars, characterized by a central speedometer flanked by smaller ancillary gauges such as fuel level indicators, tachometers, and warning lights.   
+texts2:  torch.Size([1, 77])
+classname:  There is a motorbike in the photo featuring Presence of a distinctively shaped motorcycle-style swingarm with exposed linkage connecting the rear wheel axle to the frame.  
+textelse:  There is a motorbike in the photo featuring Presence of a distinctively shaped motorcycle-style swingarm with exposed linkage connecting the rear wheel axle to the frame.  
+texts1:  There is a motorbike in the photo featuring Presence of a distinctively shaped motorcycle-style swingarm with exposed linkage connecting the rear wheel axle to the frame.  
+texts2:  torch.Size([1, 77])
+classname:  There is a motorbike in the photo featuring Presence of a distinctly contoured, sculpted fuel tank with exposed curves and contours, often positioned above the engine and visually integrating with the frame structure. 
+textsif:  There is a motorbike in the photo featuring Presence of a distinctly contoured, sculpted fuel tank with exposed curves and contours, often positioned above the engine and visually integrating with the frame structure. 
+texts1:  There is a motorbike in the photo featuring Presence of a distinctly contoured, sculpted fuel tank with exposed curves and contours, often positioned above the engine and visually integrating with the frame structure. 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a person in the photo featuring Presence and style of clothing, accessory pairings, and grooming choices that reflect a specific professional subculture or niche interest. ', 'There is a person in the photo featuring Presence and style of clothing, accessories, and hairstyle combinations that convey a particular personal brand or style identity ', 'There is a person in the photo featuring Presence of a green, leafy structure exhibiting a distinct form characterized by both vertical growth and a horizontal spreading of its foliage, contained within a distinct, contrasting container. ', 'There is a person in the photo featuring Presence and style of clothing and accessories that communicate a recognizable  hands-on or intellectual disposition, considering functional elements alongside symbolic representations relevant to the field e.g., tool-worn aprons vs. meticulously styled glasses.  ', "There is a person in the photo featuring Combinations of Clothing Items, such as specific tool placement on a vest,  a unique pattern on a  technician's uniform, or a doctor's coat worn alongside a stethoscope that suggests a surgical specialist."]
+classname:  There is a person in the photo featuring Presence and style of clothing, accessory pairings, and grooming choices that reflect a specific professional subculture or niche interest. 
+textsif:  There is a person in the photo featuring Presence and style of clothing, accessory pairings, and grooming choices that reflect a specific professional subculture or niche interest. 
+texts1:  There is a person in the photo featuring Presence and style of clothing, accessory pairings, and grooming choices that reflect a specific professional subculture or niche interest. 
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Presence and style of clothing, accessories, and hairstyle combinations that convey a particular personal brand or style identity 
+textsif:  There is a person in the photo featuring Presence and style of clothing, accessories, and hairstyle combinations that convey a particular personal brand or style identity 
+texts1:  There is a person in the photo featuring Presence and style of clothing, accessories, and hairstyle combinations that convey a particular personal brand or style identity 
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Presence of a green, leafy structure exhibiting a distinct form characterized by both vertical growth and a horizontal spreading of its foliage, contained within a distinct, contrasting container. 
+textsif:  There is a person in the photo featuring Presence of a green, leafy structure exhibiting a distinct form characterized by both vertical growth and a horizontal spreading of its foliage, contained within a distinct, contrasting container. 
+texts1:  There is a person in the photo featuring Presence of a green, leafy structure exhibiting a distinct form characterized by both vertical growth and a horizontal spreading of its foliage, contained within a distinct, contrasting container. 
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Presence and style of clothing and accessories that communicate a recognizable  hands-on or intellectual disposition, considering functional elements alongside symbolic representations relevant to the field e.g., tool-worn aprons vs. meticulously styled glasses.  
+textsif:  There is a person in the photo featuring Presence and style of clothing and accessories that communicate a recognizable  hands-on or intellectual disposition, considering functional elements alongside symbolic representations relevant to the field e.g., tool-worn aprons vs. meticulously styled glasses.  
+texts1:  There is a person in the photo featuring Presence and style of clothing and accessories that communicate a recognizable  hands-on or intellectual disposition, considering functional elements alongside symbolic representations relevant to the field e.g., tool-worn aprons vs. meticulously styled glasses.  
+texts2:  torch.Size([1, 77])
+classname:  There is a person in the photo featuring Combinations of Clothing Items, such as specific tool placement on a vest,  a unique pattern on a  technician's uniform, or a doctor's coat worn alongside a stethoscope that suggests a surgical specialist.
+textsif:  There is a person in the photo featuring Combinations of Clothing Items, such as specific tool placement on a vest,  a unique pattern on a  technician's uniform, or a doctor's coat worn alongside a stethoscope that suggests a surgical specialist.
+texts1:  There is a person in the photo featuring Combinations of Clothing Items, such as specific tool placement on a vest,  a unique pattern on a  technician's uniform, or a doctor's coat worn alongside a stethoscope that suggests a surgical specialist.
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct shadows cast by its form and the pot, creating a visually defined interplay of light and dark where the plant meets its container. ', 'There is a potted plant in the photo featuring Presence of a green, leafy structure with visible vertical growth emerging from a distinct, horizontally situated,  material contrast base. ', "There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct variegation patterns arranged within a visually contrasting pot exhibiting a defined shape and material that emphasizes plant's three-dimensional form against the surrounding background. ", "There is a potted plant in the photo featuring Presence of a  distinct color transition where the plant's foliage meets the pot, suggesting a visual boundary between the plant and its container. ", 'There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting a distinct upward growth trend, contained within a container exhibiting a contrasting color and texture to both the plant itself and the surrounding background, and demonstrating a consistent visual separation between the plant and its immediate context. ']
+classname:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct shadows cast by its form and the pot, creating a visually defined interplay of light and dark where the plant meets its container. 
+textsif:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct shadows cast by its form and the pot, creating a visually defined interplay of light and dark where the plant meets its container. 
+texts1:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct shadows cast by its form and the pot, creating a visually defined interplay of light and dark where the plant meets its container. 
+texts2:  torch.Size([1, 77])
+classname:  There is a potted plant in the photo featuring Presence of a green, leafy structure with visible vertical growth emerging from a distinct, horizontally situated,  material contrast base. 
+textsif:  There is a potted plant in the photo featuring Presence of a green, leafy structure with visible vertical growth emerging from a distinct, horizontally situated,  material contrast base. 
+texts1:  There is a potted plant in the photo featuring Presence of a green, leafy structure with visible vertical growth emerging from a distinct, horizontally situated,  material contrast base. 
+texts2:  torch.Size([1, 77])
+classname:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct variegation patterns arranged within a visually contrasting pot exhibiting a defined shape and material that emphasizes plant's three-dimensional form against the surrounding background. 
+textsif:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct variegation patterns arranged within a visually contrasting pot exhibiting a defined shape and material that emphasizes plant's three-dimensional form against the surrounding background. 
+texts1:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting distinct variegation patterns arranged within a visually contrasting pot exhibiting a defined shape and material that emphasizes plant's three-dimensional form against the surrounding background. 
+texts2:  torch.Size([1, 77])
+classname:  There is a potted plant in the photo featuring Presence of a  distinct color transition where the plant's foliage meets the pot, suggesting a visual boundary between the plant and its container. 
+textsif:  There is a potted plant in the photo featuring Presence of a  distinct color transition where the plant's foliage meets the pot, suggesting a visual boundary between the plant and its container. 
+texts1:  There is a potted plant in the photo featuring Presence of a  distinct color transition where the plant's foliage meets the pot, suggesting a visual boundary between the plant and its container. 
+texts2:  torch.Size([1, 77])
+classname:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting a distinct upward growth trend, contained within a container exhibiting a contrasting color and texture to both the plant itself and the surrounding background, and demonstrating a consistent visual separation between the plant and its immediate context. 
+textsif:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting a distinct upward growth trend, contained within a container exhibiting a contrasting color and texture to both the plant itself and the surrounding background, and demonstrating a consistent visual separation between the plant and its immediate context. 
+texts1:  There is a potted plant in the photo featuring Presence of a green, leafy structure exhibiting a distinct upward growth trend, contained within a container exhibiting a contrasting color and texture to both the plant itself and the surrounding background, and demonstrating a consistent visual separation between the plant and its immediate context. 
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a sheep in the photo featuring Mid-century modern style with exposed wooden joinery ', 'There is a sheep in the photo featuring presence  distinctive mutton fleece with prominent crimp and visible shearing marks ', 'There is a sheep in the photo featuring presence a face with a prominent triangular brow ridge, a narrow muzzle, and a V shaped notch between the nose and upper lip giving a sheep-like skull structure.  ', 'There is a sheep in the photo featuring presence  a face with a prominent triangular brow ridge and a narrow muzzle, indicative of a sheep-like skull structure,  paired with a  distinct V shaped notch between the nose and upper lip. ', 'There is a sheep in the photo featuring presence a face with a combination of a prominent triangular notch between the nose and upper lip, reminiscent of a V shape, alongside large, round eyes and  prominent wool situated above the eyes  ']
+classname:  There is a sheep in the photo featuring Mid-century modern style with exposed wooden joinery 
+textelse:  There is a sheep in the photo featuring Mid-century modern style with exposed wooden joinery 
+texts1:  There is a sheep in the photo featuring Mid-century modern style with exposed wooden joinery 
+texts2:  torch.Size([1, 77])
+classname:  There is a sheep in the photo featuring presence  distinctive mutton fleece with prominent crimp and visible shearing marks 
+textelse:  There is a sheep in the photo featuring presence  distinctive mutton fleece with prominent crimp and visible shearing marks 
+texts1:  There is a sheep in the photo featuring presence  distinctive mutton fleece with prominent crimp and visible shearing marks 
+texts2:  torch.Size([1, 77])
+classname:  There is a sheep in the photo featuring presence a face with a prominent triangular brow ridge, a narrow muzzle, and a V shaped notch between the nose and upper lip giving a sheep-like skull structure.  
+textsif:  There is a sheep in the photo featuring presence a face with a prominent triangular brow ridge, a narrow muzzle, and a V shaped notch between the nose and upper lip giving a sheep-like skull structure.  
+texts1:  There is a sheep in the photo featuring presence a face with a prominent triangular brow ridge, a narrow muzzle, and a V shaped notch between the nose and upper lip giving a sheep-like skull structure.  
+texts2:  torch.Size([1, 77])
+classname:  There is a sheep in the photo featuring presence  a face with a prominent triangular brow ridge and a narrow muzzle, indicative of a sheep-like skull structure,  paired with a  distinct V shaped notch between the nose and upper lip. 
+textsif:  There is a sheep in the photo featuring presence  a face with a prominent triangular brow ridge and a narrow muzzle, indicative of a sheep-like skull structure,  paired with a  distinct V shaped notch between the nose and upper lip. 
+texts1:  There is a sheep in the photo featuring presence  a face with a prominent triangular brow ridge and a narrow muzzle, indicative of a sheep-like skull structure,  paired with a  distinct V shaped notch between the nose and upper lip. 
+texts2:  torch.Size([1, 77])
+classname:  There is a sheep in the photo featuring presence a face with a combination of a prominent triangular notch between the nose and upper lip, reminiscent of a V shape, alongside large, round eyes and  prominent wool situated above the eyes  
+textsif:  There is a sheep in the photo featuring presence a face with a combination of a prominent triangular notch between the nose and upper lip, reminiscent of a V shape, alongside large, round eyes and  prominent wool situated above the eyes  
+texts1:  There is a sheep in the photo featuring presence a face with a combination of a prominent triangular notch between the nose and upper lip, reminiscent of a V shape, alongside large, round eyes and  prominent wool situated above the eyes  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a sofa in the photo featuring Upholstered armchair with carved wooden detailing and a low, curved silhouette. ', 'There is a sofa in the photo featuring Upholstered lounge chair with curved wooden arms and tapered legs  ', 'There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct curved armrests and cushions arranged for multiple occupants, often positioned in the center of a living room setting, suggesting a relaxed social space. ', 'There is a sofa in the photo featuring Upholstered seating with a low profile and a back higher than the seat, set apart from a wall as the focal point of a living room.  ', 'There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct armrests and cushions arranged in multiple rows designed for accommodating multiple occupants.  ']
+classname:  There is a sofa in the photo featuring Upholstered armchair with carved wooden detailing and a low, curved silhouette. 
+textsif:  There is a sofa in the photo featuring Upholstered armchair with carved wooden detailing and a low, curved silhouette. 
+texts1:  There is a sofa in the photo featuring Upholstered armchair with carved wooden detailing and a low, curved silhouette. 
+texts2:  torch.Size([1, 77])
+classname:  There is a sofa in the photo featuring Upholstered lounge chair with curved wooden arms and tapered legs  
+textelse:  There is a sofa in the photo featuring Upholstered lounge chair with curved wooden arms and tapered legs  
+texts1:  There is a sofa in the photo featuring Upholstered lounge chair with curved wooden arms and tapered legs  
+texts2:  torch.Size([1, 77])
+classname:  There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct curved armrests and cushions arranged for multiple occupants, often positioned in the center of a living room setting, suggesting a relaxed social space. 
+textsif:  There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct curved armrests and cushions arranged for multiple occupants, often positioned in the center of a living room setting, suggesting a relaxed social space. 
+texts1:  There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct curved armrests and cushions arranged for multiple occupants, often positioned in the center of a living room setting, suggesting a relaxed social space. 
+texts2:  torch.Size([1, 77])
+classname:  There is a sofa in the photo featuring Upholstered seating with a low profile and a back higher than the seat, set apart from a wall as the focal point of a living room.  
+textsif:  There is a sofa in the photo featuring Upholstered seating with a low profile and a back higher than the seat, set apart from a wall as the focal point of a living room.  
+texts1:  There is a sofa in the photo featuring Upholstered seating with a low profile and a back higher than the seat, set apart from a wall as the focal point of a living room.  
+texts2:  torch.Size([1, 77])
+classname:  There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct armrests and cushions arranged in multiple rows designed for accommodating multiple occupants.  
+textsif:  There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct armrests and cushions arranged in multiple rows designed for accommodating multiple occupants.  
+texts1:  There is a sofa in the photo featuring Upholstered frame with a low profile, featuring distinct armrests and cushions arranged in multiple rows designed for accommodating multiple occupants.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a train in the photo featuring exhibits a system of interconnected passenger carriages arranged in a linear sequence above ground-level tracks, with a distinctive s shaped curve to the overall structure', 'There is a train in the photo featuring exhibits a system of interconnected passenger carriages with distinctive, regularly spaced windows arranged along sloping rooflines. ', 'There is a train in the photo featuring exhibits a distinctive system of multiple passenger doors spaced regularly along its side and aligned with the structure of the train. ', 'There is a train in the photo featuring exhibits a distinctive system of interconnected passenger carriages with uniformly sloped rooflines gradually increasing in elevation towards the rear. ', 'There is a train in the photo featuring exhibits a system of interconnected passenger compartments with a distinctive panoramic window layout regularly spaced along their sides.  ']
+classname:  There is a train in the photo featuring exhibits a system of interconnected passenger carriages arranged in a linear sequence above ground-level tracks, with a distinctive s shaped curve to the overall structure
+textsif:  There is a train in the photo featuring exhibits a system of interconnected passenger carriages arranged in a linear sequence above ground-level tracks, with a distinctive s shaped curve to the overall structure
+texts1:  There is a train in the photo featuring exhibits a system of interconnected passenger carriages arranged in a linear sequence above ground-level tracks, with a distinctive s shaped curve to the overall structure
+texts2:  torch.Size([1, 77])
+classname:  There is a train in the photo featuring exhibits a system of interconnected passenger carriages with distinctive, regularly spaced windows arranged along sloping rooflines. 
+textsif:  There is a train in the photo featuring exhibits a system of interconnected passenger carriages with distinctive, regularly spaced windows arranged along sloping rooflines. 
+texts1:  There is a train in the photo featuring exhibits a system of interconnected passenger carriages with distinctive, regularly spaced windows arranged along sloping rooflines. 
+texts2:  torch.Size([1, 77])
+classname:  There is a train in the photo featuring exhibits a distinctive system of multiple passenger doors spaced regularly along its side and aligned with the structure of the train. 
+textelse:  There is a train in the photo featuring exhibits a distinctive system of multiple passenger doors spaced regularly along its side and aligned with the structure of the train. 
+texts1:  There is a train in the photo featuring exhibits a distinctive system of multiple passenger doors spaced regularly along its side and aligned with the structure of the train. 
+texts2:  torch.Size([1, 77])
+classname:  There is a train in the photo featuring exhibits a distinctive system of interconnected passenger carriages with uniformly sloped rooflines gradually increasing in elevation towards the rear. 
+textelse:  There is a train in the photo featuring exhibits a distinctive system of interconnected passenger carriages with uniformly sloped rooflines gradually increasing in elevation towards the rear. 
+texts1:  There is a train in the photo featuring exhibits a distinctive system of interconnected passenger carriages with uniformly sloped rooflines gradually increasing in elevation towards the rear. 
+texts2:  torch.Size([1, 77])
+classname:  There is a train in the photo featuring exhibits a system of interconnected passenger compartments with a distinctive panoramic window layout regularly spaced along their sides.  
+textelse:  There is a train in the photo featuring exhibits a system of interconnected passenger compartments with a distinctive panoramic window layout regularly spaced along their sides.  
+texts1:  There is a train in the photo featuring exhibits a system of interconnected passenger compartments with a distinctive panoramic window layout regularly spaced along their sides.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+descriptors:  ['There is a tvmonitor in the photo featuring Presents a rectangular form factor with a dedicated area designed to display moving images and accompanied by a bezel surrounding the screen.  ', 'There is a tvmonitor in the photo featuring Exhibits a distinct geometric pattern of illuminated elements arranged in a rectangular grid, suggesting a digital display technology. ', 'There is a tvmonitor in the photo featuring Exhibits a rectangular form factor and a distinct screen-to-body ratio with proportionally thin bezels surrounding the display. ', 'There is a tvmonitor in the photo featuring Exhibits an on-screen display OSD menu, typically appearing as a translucent overlay with text-based options and navigation controls. ', 'There is a tvmonitor in the photo featuring Exhibits a distinct, typically rectangular area with a smooth, polished surface designed to reflect light and display images.  ']
+classname:  There is a tvmonitor in the photo featuring Presents a rectangular form factor with a dedicated area designed to display moving images and accompanied by a bezel surrounding the screen.  
+textelse:  There is a tvmonitor in the photo featuring Presents a rectangular form factor with a dedicated area designed to display moving images and accompanied by a bezel surrounding the screen.  
+texts1:  There is a tvmonitor in the photo featuring Presents a rectangular form factor with a dedicated area designed to display moving images and accompanied by a bezel surrounding the screen.  
+texts2:  torch.Size([1, 77])
+classname:  There is a tvmonitor in the photo featuring Exhibits a distinct geometric pattern of illuminated elements arranged in a rectangular grid, suggesting a digital display technology. 
+textsif:  There is a tvmonitor in the photo featuring Exhibits a distinct geometric pattern of illuminated elements arranged in a rectangular grid, suggesting a digital display technology. 
+texts1:  There is a tvmonitor in the photo featuring Exhibits a distinct geometric pattern of illuminated elements arranged in a rectangular grid, suggesting a digital display technology. 
+texts2:  torch.Size([1, 77])
+classname:  There is a tvmonitor in the photo featuring Exhibits a rectangular form factor and a distinct screen-to-body ratio with proportionally thin bezels surrounding the display. 
+textelse:  There is a tvmonitor in the photo featuring Exhibits a rectangular form factor and a distinct screen-to-body ratio with proportionally thin bezels surrounding the display. 
+texts1:  There is a tvmonitor in the photo featuring Exhibits a rectangular form factor and a distinct screen-to-body ratio with proportionally thin bezels surrounding the display. 
+texts2:  torch.Size([1, 77])
+classname:  There is a tvmonitor in the photo featuring Exhibits an on-screen display OSD menu, typically appearing as a translucent overlay with text-based options and navigation controls. 
+textsif:  There is a tvmonitor in the photo featuring Exhibits an on-screen display OSD menu, typically appearing as a translucent overlay with text-based options and navigation controls. 
+texts1:  There is a tvmonitor in the photo featuring Exhibits an on-screen display OSD menu, typically appearing as a translucent overlay with text-based options and navigation controls. 
+texts2:  torch.Size([1, 77])
+classname:  There is a tvmonitor in the photo featuring Exhibits a distinct, typically rectangular area with a smooth, polished surface designed to reflect light and display images.  
+textsif:  There is a tvmonitor in the photo featuring Exhibits a distinct, typically rectangular area with a smooth, polished surface designed to reflect light and display images.  
+texts1:  There is a tvmonitor in the photo featuring Exhibits a distinct, typically rectangular area with a smooth, polished surface designed to reflect light and display images.  
+texts2:  torch.Size([1, 77])
+descriptors_tokens:  torch.Size([5, 77])
+class_embeddings:  torch.Size([5, 1, 768])
+class_embeddingsmean:  torch.Size([1, 768])
+final_tokens:  20
+final_tokens:  torch.Size([20, 1, 768])
